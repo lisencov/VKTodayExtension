@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		939243831FB9E5B4AE934C15 /* libPods-VKExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE6B9B0C2B53E4556B1547B /* libPods-VKExtension.a */; };
+		949B070720B3CB95331F9BA9 /* libPods-VKTodayExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B42766C78526DCDE3506682C /* libPods-VKTodayExtension.a */; };
+		A5BFB0A41E00285200932069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0A31E00285200932069 /* main.m */; };
+		A5BFB0A71E00285200932069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0A61E00285200932069 /* AppDelegate.m */; };
+		A5BFB0AA1E00285200932069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0A91E00285200932069 /* ViewController.m */; };
+		A5BFB0AD1E00285200932069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BFB0AB1E00285200932069 /* Main.storyboard */; };
+		A5BFB0B01E00285200932069 /* VKTodayExtension.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0AE1E00285200932069 /* VKTodayExtension.xcdatamodeld */; };
+		A5BFB0B21E00285200932069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BFB0B11E00285200932069 /* Assets.xcassets */; };
+		A5BFB0B51E00285200932069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BFB0B31E00285200932069 /* LaunchScreen.storyboard */; };
+		A5BFB0C31E0028F400932069 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BFB0C21E0028F400932069 /* NotificationCenter.framework */; };
+		A5BFB0C71E0028F400932069 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0C61E0028F400932069 /* TodayViewController.m */; };
+		A5BFB0CA1E0028F500932069 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BFB0C81E0028F400932069 /* MainInterface.storyboard */; };
+		A5BFB0CE1E0028F500932069 /* VKExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5BFB0C01E0028F300932069 /* VKExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5BFB1181E0032C900932069 /* CATOAuthCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0D71E0032C900932069 /* CATOAuthCredential.m */; };
+		A5BFB1191E0032C900932069 /* CATOAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0D91E0032C900932069 /* CATOAuthManager.m */; };
+		A5BFB11A1E0032C900932069 /* CATOAuthResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0DB1E0032C900932069 /* CATOAuthResponseParser.m */; };
+		A5BFB11B1E0032C900932069 /* CATSocialOAuthFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0DD1E0032C900932069 /* CATSocialOAuthFactory.m */; };
+		A5BFB11C1E0032C900932069 /* CATOAuthAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E11E0032C900932069 /* CATOAuthAppearance.m */; };
+		A5BFB11D1E0032C900932069 /* CATSocialOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E31E0032C900932069 /* CATSocialOAuth.m */; };
+		A5BFB11E1E0032C900932069 /* CATFacebookAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E71E0032C900932069 /* CATFacebookAppearance.m */; };
+		A5BFB11F1E0032C900932069 /* CATFacebookOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E91E0032C900932069 /* CATFacebookOAuth.m */; };
+		A5BFB1201E0032C900932069 /* CATFoursquareAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0EC1E0032C900932069 /* CATFoursquareAppearance.m */; };
+		A5BFB1211E0032C900932069 /* CATFoursquareOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0EE1E0032C900932069 /* CATFoursquareOAuth.m */; };
+		A5BFB1221E0032C900932069 /* CATGoogleAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F11E0032C900932069 /* CATGoogleAppearance.m */; };
+		A5BFB1231E0032C900932069 /* CATGoogleOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F31E0032C900932069 /* CATGoogleOAuth.m */; };
+		A5BFB1241E0032C900932069 /* CATInstagramAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F61E0032C900932069 /* CATInstagramAppearance.m */; };
+		A5BFB1251E0032C900932069 /* CATInstagramOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F81E0032C900932069 /* CATInstagramOAuth.m */; };
+		A5BFB1261E0032C900932069 /* CATLinkedInAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0FB1E0032C900932069 /* CATLinkedInAppearance.m */; };
+		A5BFB1271E0032C900932069 /* CATLinkedInOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0FD1E0032C900932069 /* CATLinkedInOAuth.m */; };
+		A5BFB1281E0032C900932069 /* CATMailRuAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1001E0032C900932069 /* CATMailRuAppearance.m */; };
+		A5BFB1291E0032C900932069 /* CATMailRuOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1021E0032C900932069 /* CATMailRuOAuth.m */; };
+		A5BFB12A1E0032C900932069 /* CATOKAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1051E0032C900932069 /* CATOKAppearance.m */; };
+		A5BFB12B1E0032C900932069 /* CATOKOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1071E0032C900932069 /* CATOKOAuth.m */; };
+		A5BFB12C1E0032C900932069 /* CATVKAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10A1E0032C900932069 /* CATVKAppearance.m */; };
+		A5BFB12D1E0032C900932069 /* CATVKOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10C1E0032C900932069 /* CATVKOAuth.m */; };
+		A5BFB12E1E0032C900932069 /* CATYandexOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10F1E0032C900932069 /* CATYandexOAuth.m */; };
+		A5BFB12F1E0032C900932069 /* CATYanexAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1111E0032C900932069 /* CATYanexAppearance.m */; };
+		A5BFB1301E0032C900932069 /* CATOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1141E0032C900932069 /* CATOAuthView.m */; };
+		A5BFB1311E0032C900932069 /* CATOAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1171E0032C900932069 /* CATOAuthController.m */; };
+		A5BFB1371E0033BF00932069 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1361E0033BF00932069 /* Configuration.m */; };
+		A5BFB13A1E003FAF00932069 /* CATOAuthCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0D71E0032C900932069 /* CATOAuthCredential.m */; };
+		A5BFB13B1E003FB300932069 /* CATOAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0D91E0032C900932069 /* CATOAuthManager.m */; };
+		A5BFB13C1E003FB700932069 /* CATOAuthResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0DB1E0032C900932069 /* CATOAuthResponseParser.m */; };
+		A5BFB13D1E003FBA00932069 /* CATSocialOAuthFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0DD1E0032C900932069 /* CATSocialOAuthFactory.m */; };
+		A5BFB13E1E00412800932069 /* CATOAuthAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E11E0032C900932069 /* CATOAuthAppearance.m */; };
+		A5BFB13F1E00412B00932069 /* CATSocialOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E31E0032C900932069 /* CATSocialOAuth.m */; };
+		A5BFB1401E00413300932069 /* CATFacebookAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E71E0032C900932069 /* CATFacebookAppearance.m */; };
+		A5BFB1411E00413600932069 /* CATFacebookOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0E91E0032C900932069 /* CATFacebookOAuth.m */; };
+		A5BFB1421E00413F00932069 /* CATFoursquareAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0EC1E0032C900932069 /* CATFoursquareAppearance.m */; };
+		A5BFB1431E00414200932069 /* CATFoursquareOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0EE1E0032C900932069 /* CATFoursquareOAuth.m */; };
+		A5BFB1441E00414700932069 /* CATGoogleOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F31E0032C900932069 /* CATGoogleOAuth.m */; };
+		A5BFB1451E00414A00932069 /* CATGoogleAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F11E0032C900932069 /* CATGoogleAppearance.m */; };
+		A5BFB1461E00415000932069 /* CATInstagramAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F61E0032C900932069 /* CATInstagramAppearance.m */; };
+		A5BFB1471E00415300932069 /* CATInstagramOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0F81E0032C900932069 /* CATInstagramOAuth.m */; };
+		A5BFB1481E00415D00932069 /* CATLinkedInAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0FB1E0032C900932069 /* CATLinkedInAppearance.m */; };
+		A5BFB1491E00416200932069 /* CATLinkedInOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0FD1E0032C900932069 /* CATLinkedInOAuth.m */; };
+		A5BFB14A1E00416700932069 /* CATMailRuAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1001E0032C900932069 /* CATMailRuAppearance.m */; };
+		A5BFB14B1E00416A00932069 /* CATMailRuOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1021E0032C900932069 /* CATMailRuOAuth.m */; };
+		A5BFB14C1E00416F00932069 /* CATOKAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1051E0032C900932069 /* CATOKAppearance.m */; };
+		A5BFB14D1E00417200932069 /* CATOKOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1071E0032C900932069 /* CATOKOAuth.m */; };
+		A5BFB14E1E00417800932069 /* CATVKAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10A1E0032C900932069 /* CATVKAppearance.m */; };
+		A5BFB14F1E00417B00932069 /* CATVKOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10C1E0032C900932069 /* CATVKOAuth.m */; };
+		A5BFB1501E00418100932069 /* CATYandexOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10F1E0032C900932069 /* CATYandexOAuth.m */; };
+		A5BFB1511E00418500932069 /* CATYanexAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1111E0032C900932069 /* CATYanexAppearance.m */; };
+		A5BFB1561E005FB000932069 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1551E005FB000932069 /* VKUser.m */; };
+		A5BFB1591E005FD200932069 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1581E005FD100932069 /* VKDialog.m */; };
+		A5BFB15A1E005FD700932069 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1551E005FB000932069 /* VKUser.m */; };
+		A5BFB15B1E005FDA00932069 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1581E005FD100932069 /* VKDialog.m */; };
+		A5BFB15E1E005FFD00932069 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB15D1E005FFD00932069 /* UserManager.m */; };
+		A5BFB1611E00601300932069 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1601E00601200932069 /* ApiManager.m */; };
+		A5BFB1621E0061AE00932069 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1361E0033BF00932069 /* Configuration.m */; };
+		A5BFB1631E0061B100932069 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1601E00601200932069 /* ApiManager.m */; };
+		A5BFB1641E0061B400932069 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB15D1E005FFD00932069 /* UserManager.m */; };
+		A5BFB1691E00768B00932069 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */; };
+		A5BFB16A1E00773300932069 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */; };
+		A5BFB16D1E0127A200932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */; };
+		A5BFB16E1E01330800932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */; };
+		A5BFB17A1E018CF000932069 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1791E018CF000932069 /* DialogTableViewCell.m */; };
+		A5BFB17B1E018D1000932069 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1791E018CF000932069 /* DialogTableViewCell.m */; };
+		A5BFB17F1E018EAB00932069 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */; };
+		A5BFB1811E019AF200932069 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */; };
+		A5BFB1861E01C1E400932069 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */; };
+		A5BFB1871E01C74600932069 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5BFB0CC1E0028F500932069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BFB0971E00284F00932069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BFB0BF1E0028F300932069;
+			remoteInfo = VKExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5BFB0D21E0028F500932069 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A5BFB0CE1E0028F500932069 /* VKExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04846360EB04C3ED30AD67E9 /* Pods-VKTodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKTodayExtension/Pods-VKTodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		09122FA81E6F1B9671067664 /* Pods-VKExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKExtension/Pods-VKExtension.release.xcconfig"; sourceTree = "<group>"; };
+		77F28A68DBD0F060EB26AD83 /* Pods-VKTodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKTodayExtension/Pods-VKTodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		A5BFB09F1E00285200932069 /* VKTodayExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKTodayExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFB0A31E00285200932069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5BFB0A51E00285200932069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5BFB0A61E00285200932069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5BFB0A81E00285200932069 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5BFB0A91E00285200932069 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5BFB0AC1E00285200932069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5BFB0AF1E00285200932069 /* VKTodayExtension.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKTodayExtension.xcdatamodel; sourceTree = "<group>"; };
+		A5BFB0B11E00285200932069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BFB0B41E00285200932069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5BFB0B61E00285200932069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BFB0C01E0028F300932069 /* VKExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VKExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFB0C21E0028F400932069 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A5BFB0C51E0028F400932069 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		A5BFB0C61E0028F400932069 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		A5BFB0C91E0028F400932069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A5BFB0CB1E0028F500932069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BFB0D51E0032C800932069 /* CATOAuthConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuthConfigurator.h; sourceTree = "<group>"; };
+		A5BFB0D61E0032C900932069 /* CATOAuthCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuthCredential.h; sourceTree = "<group>"; };
+		A5BFB0D71E0032C900932069 /* CATOAuthCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOAuthCredential.m; sourceTree = "<group>"; };
+		A5BFB0D81E0032C900932069 /* CATOAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuthManager.h; sourceTree = "<group>"; };
+		A5BFB0D91E0032C900932069 /* CATOAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOAuthManager.m; sourceTree = "<group>"; };
+		A5BFB0DA1E0032C900932069 /* CATOAuthResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuthResponseParser.h; sourceTree = "<group>"; };
+		A5BFB0DB1E0032C900932069 /* CATOAuthResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOAuthResponseParser.m; sourceTree = "<group>"; };
+		A5BFB0DC1E0032C900932069 /* CATSocialOAuthFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATSocialOAuthFactory.h; sourceTree = "<group>"; };
+		A5BFB0DD1E0032C900932069 /* CATSocialOAuthFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATSocialOAuthFactory.m; sourceTree = "<group>"; };
+		A5BFB0E01E0032C900932069 /* CATOAuthAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuthAppearance.h; sourceTree = "<group>"; };
+		A5BFB0E11E0032C900932069 /* CATOAuthAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOAuthAppearance.m; sourceTree = "<group>"; };
+		A5BFB0E21E0032C900932069 /* CATSocialOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATSocialOAuth.h; sourceTree = "<group>"; };
+		A5BFB0E31E0032C900932069 /* CATSocialOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATSocialOAuth.m; sourceTree = "<group>"; };
+		A5BFB0E41E0032C900932069 /* CATOAuths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuths.h; sourceTree = "<group>"; };
+		A5BFB0E61E0032C900932069 /* CATFacebookAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATFacebookAppearance.h; sourceTree = "<group>"; };
+		A5BFB0E71E0032C900932069 /* CATFacebookAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATFacebookAppearance.m; sourceTree = "<group>"; };
+		A5BFB0E81E0032C900932069 /* CATFacebookOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATFacebookOAuth.h; sourceTree = "<group>"; };
+		A5BFB0E91E0032C900932069 /* CATFacebookOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATFacebookOAuth.m; sourceTree = "<group>"; };
+		A5BFB0EB1E0032C900932069 /* CATFoursquareAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATFoursquareAppearance.h; sourceTree = "<group>"; };
+		A5BFB0EC1E0032C900932069 /* CATFoursquareAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATFoursquareAppearance.m; sourceTree = "<group>"; };
+		A5BFB0ED1E0032C900932069 /* CATFoursquareOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATFoursquareOAuth.h; sourceTree = "<group>"; };
+		A5BFB0EE1E0032C900932069 /* CATFoursquareOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATFoursquareOAuth.m; sourceTree = "<group>"; };
+		A5BFB0F01E0032C900932069 /* CATGoogleAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATGoogleAppearance.h; sourceTree = "<group>"; };
+		A5BFB0F11E0032C900932069 /* CATGoogleAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATGoogleAppearance.m; sourceTree = "<group>"; };
+		A5BFB0F21E0032C900932069 /* CATGoogleOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATGoogleOAuth.h; sourceTree = "<group>"; };
+		A5BFB0F31E0032C900932069 /* CATGoogleOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATGoogleOAuth.m; sourceTree = "<group>"; };
+		A5BFB0F51E0032C900932069 /* CATInstagramAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATInstagramAppearance.h; sourceTree = "<group>"; };
+		A5BFB0F61E0032C900932069 /* CATInstagramAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATInstagramAppearance.m; sourceTree = "<group>"; };
+		A5BFB0F71E0032C900932069 /* CATInstagramOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATInstagramOAuth.h; sourceTree = "<group>"; };
+		A5BFB0F81E0032C900932069 /* CATInstagramOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATInstagramOAuth.m; sourceTree = "<group>"; };
+		A5BFB0FA1E0032C900932069 /* CATLinkedInAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATLinkedInAppearance.h; sourceTree = "<group>"; };
+		A5BFB0FB1E0032C900932069 /* CATLinkedInAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATLinkedInAppearance.m; sourceTree = "<group>"; };
+		A5BFB0FC1E0032C900932069 /* CATLinkedInOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATLinkedInOAuth.h; sourceTree = "<group>"; };
+		A5BFB0FD1E0032C900932069 /* CATLinkedInOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATLinkedInOAuth.m; sourceTree = "<group>"; };
+		A5BFB0FF1E0032C900932069 /* CATMailRuAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATMailRuAppearance.h; sourceTree = "<group>"; };
+		A5BFB1001E0032C900932069 /* CATMailRuAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATMailRuAppearance.m; sourceTree = "<group>"; };
+		A5BFB1011E0032C900932069 /* CATMailRuOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATMailRuOAuth.h; sourceTree = "<group>"; };
+		A5BFB1021E0032C900932069 /* CATMailRuOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATMailRuOAuth.m; sourceTree = "<group>"; };
+		A5BFB1041E0032C900932069 /* CATOKAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOKAppearance.h; sourceTree = "<group>"; };
+		A5BFB1051E0032C900932069 /* CATOKAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOKAppearance.m; sourceTree = "<group>"; };
+		A5BFB1061E0032C900932069 /* CATOKOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOKOAuth.h; sourceTree = "<group>"; };
+		A5BFB1071E0032C900932069 /* CATOKOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOKOAuth.m; sourceTree = "<group>"; };
+		A5BFB1091E0032C900932069 /* CATVKAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATVKAppearance.h; sourceTree = "<group>"; };
+		A5BFB10A1E0032C900932069 /* CATVKAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATVKAppearance.m; sourceTree = "<group>"; };
+		A5BFB10B1E0032C900932069 /* CATVKOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATVKOAuth.h; sourceTree = "<group>"; };
+		A5BFB10C1E0032C900932069 /* CATVKOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATVKOAuth.m; sourceTree = "<group>"; };
+		A5BFB10E1E0032C900932069 /* CATYandexOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATYandexOAuth.h; sourceTree = "<group>"; };
+		A5BFB10F1E0032C900932069 /* CATYandexOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATYandexOAuth.m; sourceTree = "<group>"; };
+		A5BFB1101E0032C900932069 /* CATYanexAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATYanexAppearance.h; sourceTree = "<group>"; };
+		A5BFB1111E0032C900932069 /* CATYanexAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATYanexAppearance.m; sourceTree = "<group>"; };
+		A5BFB1131E0032C900932069 /* CATOAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuthView.h; sourceTree = "<group>"; };
+		A5BFB1141E0032C900932069 /* CATOAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOAuthView.m; sourceTree = "<group>"; };
+		A5BFB1161E0032C900932069 /* CATOAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATOAuthController.h; sourceTree = "<group>"; };
+		A5BFB1171E0032C900932069 /* CATOAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATOAuthController.m; sourceTree = "<group>"; };
+		A5BFB1351E0033BF00932069 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Configuration.h; path = VKTodayExtension/Configuration.h; sourceTree = "<group>"; };
+		A5BFB1361E0033BF00932069 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Configuration.m; path = VKTodayExtension/Configuration.m; sourceTree = "<group>"; };
+		A5BFB1381E003CA000932069 /* VKTodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VKTodayExtension.entitlements; sourceTree = "<group>"; };
+		A5BFB1391E003CD400932069 /* VKExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VKExtension.entitlements; sourceTree = "<group>"; };
+		A5BFB1541E005FB000932069 /* VKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKUser.h; sourceTree = "<group>"; };
+		A5BFB1551E005FB000932069 /* VKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKUser.m; sourceTree = "<group>"; };
+		A5BFB1571E005FD100932069 /* VKDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDialog.h; sourceTree = "<group>"; };
+		A5BFB1581E005FD100932069 /* VKDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDialog.m; sourceTree = "<group>"; };
+		A5BFB15C1E005FFD00932069 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		A5BFB15D1E005FFD00932069 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		A5BFB15F1E00601200932069 /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		A5BFB1601E00601200932069 /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		A5BFB1651E00635E00932069 /* AuthControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthControllerProtocol.h; path = VKTodayExtension/Catamaran/AuthControllerProtocol.h; sourceTree = SOURCE_ROOT; };
+		A5BFB1661E00689000932069 /* ApiManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiManagerProtocol.h; path = VKTodayExtension/Catamaran/ApiManagerProtocol.h; sourceTree = "<group>"; };
+		A5BFB1671E00768B00932069 /* NSUserDefaults+GroupDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+GroupDefaults.h"; sourceTree = "<group>"; };
+		A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+GroupDefaults.m"; sourceTree = "<group>"; };
+		A5BFB16B1E0127A200932069 /* VKDialogsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDialogsDataSource.h; sourceTree = "<group>"; };
+		A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDialogsDataSource.m; sourceTree = "<group>"; };
+		A5BFB16F1E013C6200932069 /* DialogProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogProtocol.h; sourceTree = "<group>"; };
+		A5BFB1781E018CF000932069 /* DialogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewCell.h; sourceTree = "<group>"; };
+		A5BFB1791E018CF000932069 /* DialogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogTableViewCell.m; sourceTree = "<group>"; };
+		A5BFB17C1E018E6600932069 /* DialogTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewCellProtocol.h; sourceTree = "<group>"; };
+		A5BFB17D1E018EAB00932069 /* DialogTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewDataSource.h; sourceTree = "<group>"; };
+		A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogTableViewDataSource.m; sourceTree = "<group>"; };
+		A5BFB1801E018F6D00932069 /* DialogDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogDataSourceProtocol.h; sourceTree = "<group>"; };
+		A5BFB1841E01C1E400932069 /* NSThread+SimpleMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SimpleMainThread.h"; sourceTree = "<group>"; };
+		A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SimpleMainThread.m"; sourceTree = "<group>"; };
+		B42766C78526DCDE3506682C /* libPods-VKTodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKTodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0AFFB18FA59AFD212BC187 /* Pods-VKExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKExtension/Pods-VKExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE6B9B0C2B53E4556B1547B /* libPods-VKExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BFB09C1E00285000932069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949B070720B3CB95331F9BA9 /* libPods-VKTodayExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB0BD1E0028F300932069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFB0C31E0028F400932069 /* NotificationCenter.framework in Frameworks */,
+				939243831FB9E5B4AE934C15 /* libPods-VKExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BFB0961E00284F00932069 = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1521E005F6300932069 /* Core */,
+				A5BFB0A11E00285200932069 /* VKTodayExtension */,
+				A5BFB0C41E0028F400932069 /* VKExtension */,
+				A5BFB0C11E0028F400932069 /* Frameworks */,
+				A5BFB0A01E00285200932069 /* Products */,
+				B13C652F298B9140F592D073 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BFB0A01E00285200932069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB09F1E00285200932069 /* VKTodayExtension.app */,
+				A5BFB0C01E0028F300932069 /* VKExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BFB0A11E00285200932069 /* VKTodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1381E003CA000932069 /* VKTodayExtension.entitlements */,
+				A5BFB0A51E00285200932069 /* AppDelegate.h */,
+				A5BFB0A61E00285200932069 /* AppDelegate.m */,
+				A5BFB0A81E00285200932069 /* ViewController.h */,
+				A5BFB0A91E00285200932069 /* ViewController.m */,
+				A5BFB0AB1E00285200932069 /* Main.storyboard */,
+				A5BFB0B11E00285200932069 /* Assets.xcassets */,
+				A5BFB0B31E00285200932069 /* LaunchScreen.storyboard */,
+				A5BFB0B61E00285200932069 /* Info.plist */,
+				A5BFB0AE1E00285200932069 /* VKTodayExtension.xcdatamodeld */,
+				A5BFB0A21E00285200932069 /* Supporting Files */,
+			);
+			path = VKTodayExtension;
+			sourceTree = "<group>";
+		};
+		A5BFB0A21E00285200932069 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0A31E00285200932069 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5BFB0C11E0028F400932069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0C21E0028F400932069 /* NotificationCenter.framework */,
+				DCE6B9B0C2B53E4556B1547B /* libPods-VKExtension.a */,
+				B42766C78526DCDE3506682C /* libPods-VKTodayExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BFB0C41E0028F400932069 /* VKExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1391E003CD400932069 /* VKExtension.entitlements */,
+				A5BFB0C51E0028F400932069 /* TodayViewController.h */,
+				A5BFB0C61E0028F400932069 /* TodayViewController.m */,
+				A5BFB0C81E0028F400932069 /* MainInterface.storyboard */,
+				A5BFB0CB1E0028F500932069 /* Info.plist */,
+			);
+			path = VKExtension;
+			sourceTree = "<group>";
+		};
+		A5BFB0D31E0032C800932069 /* Catamaran */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0D41E0032C800932069 /* Logic */,
+				A5BFB1121E0032C900932069 /* View */,
+				A5BFB1151E0032C900932069 /* ViewController */,
+			);
+			name = Catamaran;
+			path = VKTodayExtension/Catamaran;
+			sourceTree = "<group>";
+		};
+		A5BFB0D41E0032C800932069 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0D51E0032C800932069 /* CATOAuthConfigurator.h */,
+				A5BFB0D61E0032C900932069 /* CATOAuthCredential.h */,
+				A5BFB0D71E0032C900932069 /* CATOAuthCredential.m */,
+				A5BFB0D81E0032C900932069 /* CATOAuthManager.h */,
+				A5BFB0D91E0032C900932069 /* CATOAuthManager.m */,
+				A5BFB0DA1E0032C900932069 /* CATOAuthResponseParser.h */,
+				A5BFB0DB1E0032C900932069 /* CATOAuthResponseParser.m */,
+				A5BFB0DC1E0032C900932069 /* CATSocialOAuthFactory.h */,
+				A5BFB0DD1E0032C900932069 /* CATSocialOAuthFactory.m */,
+				A5BFB0DE1E0032C900932069 /* SocialNetworks */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		A5BFB0DE1E0032C900932069 /* SocialNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0DF1E0032C900932069 /* Base */,
+				A5BFB0E41E0032C900932069 /* CATOAuths.h */,
+				A5BFB0E51E0032C900932069 /* Facebook */,
+				A5BFB0EA1E0032C900932069 /* Foursquare */,
+				A5BFB0EF1E0032C900932069 /* Google */,
+				A5BFB0F41E0032C900932069 /* Intagram */,
+				A5BFB0F91E0032C900932069 /* Linkedin */,
+				A5BFB0FE1E0032C900932069 /* MailRu */,
+				A5BFB1031E0032C900932069 /* OK */,
+				A5BFB1081E0032C900932069 /* VK */,
+				A5BFB10D1E0032C900932069 /* Yandex */,
+			);
+			path = SocialNetworks;
+			sourceTree = "<group>";
+		};
+		A5BFB0DF1E0032C900932069 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0E01E0032C900932069 /* CATOAuthAppearance.h */,
+				A5BFB0E11E0032C900932069 /* CATOAuthAppearance.m */,
+				A5BFB0E21E0032C900932069 /* CATSocialOAuth.h */,
+				A5BFB0E31E0032C900932069 /* CATSocialOAuth.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A5BFB0E51E0032C900932069 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0E61E0032C900932069 /* CATFacebookAppearance.h */,
+				A5BFB0E71E0032C900932069 /* CATFacebookAppearance.m */,
+				A5BFB0E81E0032C900932069 /* CATFacebookOAuth.h */,
+				A5BFB0E91E0032C900932069 /* CATFacebookOAuth.m */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		A5BFB0EA1E0032C900932069 /* Foursquare */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0EB1E0032C900932069 /* CATFoursquareAppearance.h */,
+				A5BFB0EC1E0032C900932069 /* CATFoursquareAppearance.m */,
+				A5BFB0ED1E0032C900932069 /* CATFoursquareOAuth.h */,
+				A5BFB0EE1E0032C900932069 /* CATFoursquareOAuth.m */,
+			);
+			path = Foursquare;
+			sourceTree = "<group>";
+		};
+		A5BFB0EF1E0032C900932069 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0F01E0032C900932069 /* CATGoogleAppearance.h */,
+				A5BFB0F11E0032C900932069 /* CATGoogleAppearance.m */,
+				A5BFB0F21E0032C900932069 /* CATGoogleOAuth.h */,
+				A5BFB0F31E0032C900932069 /* CATGoogleOAuth.m */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		A5BFB0F41E0032C900932069 /* Intagram */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0F51E0032C900932069 /* CATInstagramAppearance.h */,
+				A5BFB0F61E0032C900932069 /* CATInstagramAppearance.m */,
+				A5BFB0F71E0032C900932069 /* CATInstagramOAuth.h */,
+				A5BFB0F81E0032C900932069 /* CATInstagramOAuth.m */,
+			);
+			path = Intagram;
+			sourceTree = "<group>";
+		};
+		A5BFB0F91E0032C900932069 /* Linkedin */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0FA1E0032C900932069 /* CATLinkedInAppearance.h */,
+				A5BFB0FB1E0032C900932069 /* CATLinkedInAppearance.m */,
+				A5BFB0FC1E0032C900932069 /* CATLinkedInOAuth.h */,
+				A5BFB0FD1E0032C900932069 /* CATLinkedInOAuth.m */,
+			);
+			path = Linkedin;
+			sourceTree = "<group>";
+		};
+		A5BFB0FE1E0032C900932069 /* MailRu */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0FF1E0032C900932069 /* CATMailRuAppearance.h */,
+				A5BFB1001E0032C900932069 /* CATMailRuAppearance.m */,
+				A5BFB1011E0032C900932069 /* CATMailRuOAuth.h */,
+				A5BFB1021E0032C900932069 /* CATMailRuOAuth.m */,
+			);
+			path = MailRu;
+			sourceTree = "<group>";
+		};
+		A5BFB1031E0032C900932069 /* OK */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1041E0032C900932069 /* CATOKAppearance.h */,
+				A5BFB1051E0032C900932069 /* CATOKAppearance.m */,
+				A5BFB1061E0032C900932069 /* CATOKOAuth.h */,
+				A5BFB1071E0032C900932069 /* CATOKOAuth.m */,
+			);
+			path = OK;
+			sourceTree = "<group>";
+		};
+		A5BFB1081E0032C900932069 /* VK */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1091E0032C900932069 /* CATVKAppearance.h */,
+				A5BFB10A1E0032C900932069 /* CATVKAppearance.m */,
+				A5BFB10B1E0032C900932069 /* CATVKOAuth.h */,
+				A5BFB10C1E0032C900932069 /* CATVKOAuth.m */,
+			);
+			path = VK;
+			sourceTree = "<group>";
+		};
+		A5BFB10D1E0032C900932069 /* Yandex */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB10E1E0032C900932069 /* CATYandexOAuth.h */,
+				A5BFB10F1E0032C900932069 /* CATYandexOAuth.m */,
+				A5BFB1101E0032C900932069 /* CATYanexAppearance.h */,
+				A5BFB1111E0032C900932069 /* CATYanexAppearance.m */,
+			);
+			path = Yandex;
+			sourceTree = "<group>";
+		};
+		A5BFB1121E0032C900932069 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1131E0032C900932069 /* CATOAuthView.h */,
+				A5BFB1141E0032C900932069 /* CATOAuthView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5BFB1151E0032C900932069 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1651E00635E00932069 /* AuthControllerProtocol.h */,
+				A5BFB1161E0032C900932069 /* CATOAuthController.h */,
+				A5BFB1171E0032C900932069 /* CATOAuthController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A5BFB1521E005F6300932069 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1831E019EBD00932069 /* Supporting Files */,
+				A5BFB0D31E0032C800932069 /* Catamaran */,
+				A5BFB1771E018CD800932069 /* Views */,
+				A5BFB1531E005F8E00932069 /* Models */,
+				A5BFB1821E019E9900932069 /* API */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A5BFB1531E005F8E00932069 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1541E005FB000932069 /* VKUser.h */,
+				A5BFB1551E005FB000932069 /* VKUser.m */,
+				A5BFB16F1E013C6200932069 /* DialogProtocol.h */,
+				A5BFB1571E005FD100932069 /* VKDialog.h */,
+				A5BFB1581E005FD100932069 /* VKDialog.m */,
+				A5BFB15C1E005FFD00932069 /* UserManager.h */,
+				A5BFB15D1E005FFD00932069 /* UserManager.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A5BFB1771E018CD800932069 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB17C1E018E6600932069 /* DialogTableViewCellProtocol.h */,
+				A5BFB1781E018CF000932069 /* DialogTableViewCell.h */,
+				A5BFB1791E018CF000932069 /* DialogTableViewCell.m */,
+				A5BFB17D1E018EAB00932069 /* DialogTableViewDataSource.h */,
+				A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A5BFB1821E019E9900932069 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1661E00689000932069 /* ApiManagerProtocol.h */,
+				A5BFB15F1E00601200932069 /* ApiManager.h */,
+				A5BFB1601E00601200932069 /* ApiManager.m */,
+				A5BFB1351E0033BF00932069 /* Configuration.h */,
+				A5BFB1361E0033BF00932069 /* Configuration.m */,
+				A5BFB1801E018F6D00932069 /* DialogDataSourceProtocol.h */,
+				A5BFB16B1E0127A200932069 /* VKDialogsDataSource.h */,
+				A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		A5BFB1831E019EBD00932069 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1671E00768B00932069 /* NSUserDefaults+GroupDefaults.h */,
+				A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */,
+				A5BFB1841E01C1E400932069 /* NSThread+SimpleMainThread.h */,
+				A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13C652F298B9140F592D073 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF0AFFB18FA59AFD212BC187 /* Pods-VKExtension.debug.xcconfig */,
+				09122FA81E6F1B9671067664 /* Pods-VKExtension.release.xcconfig */,
+				04846360EB04C3ED30AD67E9 /* Pods-VKTodayExtension.debug.xcconfig */,
+				77F28A68DBD0F060EB26AD83 /* Pods-VKTodayExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BFB09E1E00285000932069 /* VKTodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BFB0B91E00285200932069 /* Build configuration list for PBXNativeTarget "VKTodayExtension" */;
+			buildPhases = (
+				AA88C5467F6DCCDB8DC38D84 /* [CP] Check Pods Manifest.lock */,
+				A5BFB09B1E00285000932069 /* Sources */,
+				A5BFB09C1E00285000932069 /* Frameworks */,
+				A5BFB09D1E00285000932069 /* Resources */,
+				A5BFB0D21E0028F500932069 /* Embed App Extensions */,
+				8381DFCAFB1AD98399F73D8B /* [CP] Embed Pods Frameworks */,
+				6C7D61BBAF3F1A97C4B414C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BFB0CD1E0028F500932069 /* PBXTargetDependency */,
+			);
+			name = VKTodayExtension;
+			productName = VKTodayExtension;
+			productReference = A5BFB09F1E00285200932069 /* VKTodayExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5BFB0BF1E0028F300932069 /* VKExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BFB0CF1E0028F500932069 /* Build configuration list for PBXNativeTarget "VKExtension" */;
+			buildPhases = (
+				86E1165E9C80D0F2174C336A /* [CP] Check Pods Manifest.lock */,
+				A5BFB0BC1E0028F300932069 /* Sources */,
+				A5BFB0BD1E0028F300932069 /* Frameworks */,
+				A5BFB0BE1E0028F300932069 /* Resources */,
+				13A0480EFA748B56AD0D992F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKExtension;
+			productName = VKExtension;
+			productReference = A5BFB0C01E0028F300932069 /* VKExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BFB0971E00284F00932069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lisenkov;
+				TargetAttributes = {
+					A5BFB09E1E00285000932069 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R2W7DYVTV5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A5BFB0BF1E0028F300932069 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R2W7DYVTV5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A5BFB09A1E00284F00932069 /* Build configuration list for PBXProject "VKTodayExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5BFB0961E00284F00932069;
+			productRefGroup = A5BFB0A01E00285200932069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BFB09E1E00285000932069 /* VKTodayExtension */,
+				A5BFB0BF1E0028F300932069 /* VKExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BFB09D1E00285000932069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFB0B51E00285200932069 /* LaunchScreen.storyboard in Resources */,
+				A5BFB0B21E00285200932069 /* Assets.xcassets in Resources */,
+				A5BFB0AD1E00285200932069 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB0BE1E0028F300932069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFB0CA1E0028F500932069 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A0480EFA748B56AD0D992F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKExtension/Pods-VKExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C7D61BBAF3F1A97C4B414C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKTodayExtension/Pods-VKTodayExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8381DFCAFB1AD98399F73D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKTodayExtension/Pods-VKTodayExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E1165E9C80D0F2174C336A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA88C5467F6DCCDB8DC38D84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BFB09B1E00285000932069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFB1611E00601300932069 /* ApiManager.m in Sources */,
+				A5BFB15E1E005FFD00932069 /* UserManager.m in Sources */,
+				A5BFB1291E0032C900932069 /* CATMailRuOAuth.m in Sources */,
+				A5BFB12D1E0032C900932069 /* CATVKOAuth.m in Sources */,
+				A5BFB1271E0032C900932069 /* CATLinkedInOAuth.m in Sources */,
+				A5BFB1561E005FB000932069 /* VKUser.m in Sources */,
+				A5BFB12B1E0032C900932069 /* CATOKOAuth.m in Sources */,
+				A5BFB12F1E0032C900932069 /* CATYanexAppearance.m in Sources */,
+				A5BFB1591E005FD200932069 /* VKDialog.m in Sources */,
+				A5BFB0B01E00285200932069 /* VKTodayExtension.xcdatamodeld in Sources */,
+				A5BFB1251E0032C900932069 /* CATInstagramOAuth.m in Sources */,
+				A5BFB1231E0032C900932069 /* CATGoogleOAuth.m in Sources */,
+				A5BFB1311E0032C900932069 /* CATOAuthController.m in Sources */,
+				A5BFB16D1E0127A200932069 /* VKDialogsDataSource.m in Sources */,
+				A5BFB12A1E0032C900932069 /* CATOKAppearance.m in Sources */,
+				A5BFB11D1E0032C900932069 /* CATSocialOAuth.m in Sources */,
+				A5BFB1221E0032C900932069 /* CATGoogleAppearance.m in Sources */,
+				A5BFB12E1E0032C900932069 /* CATYandexOAuth.m in Sources */,
+				A5BFB1691E00768B00932069 /* NSUserDefaults+GroupDefaults.m in Sources */,
+				A5BFB0AA1E00285200932069 /* ViewController.m in Sources */,
+				A5BFB1201E0032C900932069 /* CATFoursquareAppearance.m in Sources */,
+				A5BFB1191E0032C900932069 /* CATOAuthManager.m in Sources */,
+				A5BFB17A1E018CF000932069 /* DialogTableViewCell.m in Sources */,
+				A5BFB11A1E0032C900932069 /* CATOAuthResponseParser.m in Sources */,
+				A5BFB1281E0032C900932069 /* CATMailRuAppearance.m in Sources */,
+				A5BFB1861E01C1E400932069 /* NSThread+SimpleMainThread.m in Sources */,
+				A5BFB1371E0033BF00932069 /* Configuration.m in Sources */,
+				A5BFB1181E0032C900932069 /* CATOAuthCredential.m in Sources */,
+				A5BFB0A71E00285200932069 /* AppDelegate.m in Sources */,
+				A5BFB1261E0032C900932069 /* CATLinkedInAppearance.m in Sources */,
+				A5BFB11B1E0032C900932069 /* CATSocialOAuthFactory.m in Sources */,
+				A5BFB1241E0032C900932069 /* CATInstagramAppearance.m in Sources */,
+				A5BFB1301E0032C900932069 /* CATOAuthView.m in Sources */,
+				A5BFB11F1E0032C900932069 /* CATFacebookOAuth.m in Sources */,
+				A5BFB0A41E00285200932069 /* main.m in Sources */,
+				A5BFB1211E0032C900932069 /* CATFoursquareOAuth.m in Sources */,
+				A5BFB17F1E018EAB00932069 /* DialogTableViewDataSource.m in Sources */,
+				A5BFB12C1E0032C900932069 /* CATVKAppearance.m in Sources */,
+				A5BFB11E1E0032C900932069 /* CATFacebookAppearance.m in Sources */,
+				A5BFB11C1E0032C900932069 /* CATOAuthAppearance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB0BC1E0028F300932069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFB13F1E00412B00932069 /* CATSocialOAuth.m in Sources */,
+				A5BFB1491E00416200932069 /* CATLinkedInOAuth.m in Sources */,
+				A5BFB14C1E00416F00932069 /* CATOKAppearance.m in Sources */,
+				A5BFB15A1E005FD700932069 /* VKUser.m in Sources */,
+				A5BFB1511E00418500932069 /* CATYanexAppearance.m in Sources */,
+				A5BFB13C1E003FB700932069 /* CATOAuthResponseParser.m in Sources */,
+				A5BFB1411E00413600932069 /* CATFacebookOAuth.m in Sources */,
+				A5BFB1451E00414A00932069 /* CATGoogleAppearance.m in Sources */,
+				A5BFB0C71E0028F400932069 /* TodayViewController.m in Sources */,
+				A5BFB13E1E00412800932069 /* CATOAuthAppearance.m in Sources */,
+				A5BFB16A1E00773300932069 /* NSUserDefaults+GroupDefaults.m in Sources */,
+				A5BFB14B1E00416A00932069 /* CATMailRuOAuth.m in Sources */,
+				A5BFB1811E019AF200932069 /* DialogTableViewDataSource.m in Sources */,
+				A5BFB1631E0061B100932069 /* ApiManager.m in Sources */,
+				A5BFB1421E00413F00932069 /* CATFoursquareAppearance.m in Sources */,
+				A5BFB1871E01C74600932069 /* NSThread+SimpleMainThread.m in Sources */,
+				A5BFB1401E00413300932069 /* CATFacebookAppearance.m in Sources */,
+				A5BFB1481E00415D00932069 /* CATLinkedInAppearance.m in Sources */,
+				A5BFB1621E0061AE00932069 /* Configuration.m in Sources */,
+				A5BFB13A1E003FAF00932069 /* CATOAuthCredential.m in Sources */,
+				A5BFB1501E00418100932069 /* CATYandexOAuth.m in Sources */,
+				A5BFB1461E00415000932069 /* CATInstagramAppearance.m in Sources */,
+				A5BFB1471E00415300932069 /* CATInstagramOAuth.m in Sources */,
+				A5BFB14F1E00417B00932069 /* CATVKOAuth.m in Sources */,
+				A5BFB1431E00414200932069 /* CATFoursquareOAuth.m in Sources */,
+				A5BFB1641E0061B400932069 /* UserManager.m in Sources */,
+				A5BFB1441E00414700932069 /* CATGoogleOAuth.m in Sources */,
+				A5BFB15B1E005FDA00932069 /* VKDialog.m in Sources */,
+				A5BFB14D1E00417200932069 /* CATOKOAuth.m in Sources */,
+				A5BFB13B1E003FB300932069 /* CATOAuthManager.m in Sources */,
+				A5BFB14E1E00417800932069 /* CATVKAppearance.m in Sources */,
+				A5BFB14A1E00416700932069 /* CATMailRuAppearance.m in Sources */,
+				A5BFB17B1E018D1000932069 /* DialogTableViewCell.m in Sources */,
+				A5BFB13D1E003FBA00932069 /* CATSocialOAuthFactory.m in Sources */,
+				A5BFB16E1E01330800932069 /* VKDialogsDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BFB0CD1E0028F500932069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BFB0BF1E0028F300932069 /* VKExtension */;
+			targetProxy = A5BFB0CC1E0028F500932069 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5BFB0AB1E00285200932069 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BFB0AC1E00285200932069 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5BFB0B31E00285200932069 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BFB0B41E00285200932069 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A5BFB0C81E0028F400932069 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BFB0C91E0028F400932069 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BFB0B71E00285200932069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5BFB0B81E00285200932069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BFB0BA1E00285200932069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04846360EB04C3ED30AD67E9 /* Pods-VKTodayExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VKTodayExtension/VKTodayExtension.entitlements;
+				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				INFOPLIST_FILE = VKTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5BFB0BB1E00285200932069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F28A68DBD0F060EB26AD83 /* Pods-VKTodayExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VKTodayExtension/VKTodayExtension.entitlements;
+				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				INFOPLIST_FILE = VKTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5BFB0D01E0028F500932069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0AFFB18FA59AFD212BC187 /* Pods-VKExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VKExtension/VKExtension.entitlements;
+				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				INFOPLIST_FILE = VKExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension.VKExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5BFB0D11E0028F500932069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09122FA81E6F1B9671067664 /* Pods-VKExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VKExtension/VKExtension.entitlements;
+				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				INFOPLIST_FILE = VKExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension.VKExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BFB09A1E00284F00932069 /* Build configuration list for PBXProject "VKTodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFB0B71E00285200932069 /* Debug */,
+				A5BFB0B81E00285200932069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BFB0B91E00285200932069 /* Build configuration list for PBXNativeTarget "VKTodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFB0BA1E00285200932069 /* Debug */,
+				A5BFB0BB1E00285200932069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BFB0CF1E0028F500932069 /* Build configuration list for PBXNativeTarget "VKExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFB0D01E0028F500932069 /* Debug */,
+				A5BFB0D11E0028F500932069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5BFB0AE1E00285200932069 /* VKTodayExtension.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5BFB0AF1E00285200932069 /* VKTodayExtension.xcdatamodel */,
+			);
+			currentVersion = A5BFB0AF1E00285200932069 /* VKTodayExtension.xcdatamodel */;
+			path = VKTodayExtension.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5BFB0971E00284F00932069 /* Project object */;
+}

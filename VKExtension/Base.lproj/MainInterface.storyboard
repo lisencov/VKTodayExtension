@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Авторизируйтесь, что бы смотреть сообщения" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALR-CQ-tmD">
+                                <rect key="frame" x="-16" y="94.5" width="320" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="G6U-bR-Vfz">
+                                <rect key="frame" x="150" y="90" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <tableView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="87" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ofr-TA-SpS">
+                                <rect key="frame" x="16" y="0.0" width="288" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExtensionCell" rowHeight="87" id="Veb-np-Yaw" customClass="DialogTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="288" height="87"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Veb-np-Yaw" id="rR0-rC-YyU">
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="86"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iP1-AE-Gou">
+                                                    <rect key="frame" x="16" y="30.5" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="VYG-oy-sTI"/>
+                                                        <constraint firstAttribute="width" constant="40" id="eoC-6q-r4O"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название Беседы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otY-1h-5n1">
+                                                    <rect key="frame" x="8" y="8" width="272" height="14.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Текст сообщения" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyM-QP-AXU">
+                                                    <rect key="frame" x="64" y="31" width="208" height="40"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="XyM-QP-AXU" firstAttribute="top" secondItem="otY-1h-5n1" secondAttribute="bottom" constant="8" id="1wo-TC-eTy"/>
+                                                <constraint firstItem="otY-1h-5n1" firstAttribute="leading" secondItem="rR0-rC-YyU" secondAttribute="leading" constant="8" id="HJN-xr-E3F"/>
+                                                <constraint firstItem="otY-1h-5n1" firstAttribute="top" secondItem="rR0-rC-YyU" secondAttribute="top" constant="8" id="IbD-Zy-Ykq"/>
+                                                <constraint firstAttribute="trailing" secondItem="otY-1h-5n1" secondAttribute="trailing" constant="8" id="Rql-tY-oSH"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="iP1-AE-Gou" secondAttribute="bottom" constant="8" id="SsX-zY-WYO"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="XyM-QP-AXU" secondAttribute="bottom" constant="8" id="WlK-nv-8tc"/>
+                                                <constraint firstItem="iP1-AE-Gou" firstAttribute="leading" secondItem="rR0-rC-YyU" secondAttribute="leadingMargin" constant="8" id="dEo-9w-VW5"/>
+                                                <constraint firstItem="XyM-QP-AXU" firstAttribute="leading" secondItem="iP1-AE-Gou" secondAttribute="trailing" constant="8" id="m1n-xw-LOA"/>
+                                                <constraint firstItem="iP1-AE-Gou" firstAttribute="top" secondItem="otY-1h-5n1" secondAttribute="bottom" constant="8" id="wYu-LT-BYh"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="XyM-QP-AXU" secondAttribute="trailing" constant="8" id="yy8-0E-w7L"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="bodyLabel" destination="XyM-QP-AXU" id="9rv-ho-g6S"/>
+                                            <outlet property="imageContainer" destination="iP1-AE-Gou" id="bY6-hx-EZi"/>
+                                            <outlet property="titleLabel" destination="otY-1h-5n1" id="UmS-3T-J2j"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ofr-TA-SpS" secondAttribute="trailing" id="7zW-VX-a41"/>
+                            <constraint firstItem="G6U-bR-Vfz" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="L9z-JA-RRN"/>
+                            <constraint firstItem="ofr-TA-SpS" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="SqO-o8-LBd"/>
+                            <constraint firstItem="ofr-TA-SpS" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="Ubd-8W-gCt"/>
+                            <constraint firstItem="ALR-CQ-tmD" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="lRb-xP-1NL"/>
+                            <constraint firstItem="G6U-bR-Vfz" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="mW3-yF-Wtc"/>
+                            <constraint firstAttribute="trailing" secondItem="ALR-CQ-tmD" secondAttribute="trailing" constant="16" id="mbG-MP-HRG"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="ofr-TA-SpS" secondAttribute="bottom" id="neE-cU-JUf"/>
+                            <constraint firstItem="ALR-CQ-tmD" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="-16" id="zrb-Hc-AaU"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="EF6-C2-tVx" appends="YES" id="9B2-dt-B4F"/>
+                        </connections>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="200"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="G6U-bR-Vfz" id="dqd-bW-pcz"/>
+                        <outlet property="emptyLabel" destination="ALR-CQ-tmD" id="jQH-L5-TNf"/>
+                        <outlet property="tableView" destination="ofr-TA-SpS" id="30T-U0-PZK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="EF6-C2-tVx">
+                    <connections>
+                        <action selector="touchUpInsideWidget:" destination="M4Y-Lb-cyx" id="jGu-In-ov0"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="33.600000000000001" y="37.781109445277366"/>
+        </scene>
+    </scenes>
+</document>
