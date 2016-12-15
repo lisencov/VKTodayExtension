@@ -140,11 +140,12 @@
 
     if([self.userManager isUserExist])
     {
+        __weak ViewController* weakSelf = self;
         [_dataSource updateDataWithComplitionHandler:^(NSArray *data) {
             void (^block)() = ^void ()
             {
-                [self.tableView reloadData];
-                [self.tableView.pullToRefreshView stopAnimating];
+                [weakSelf.tableView reloadData];
+                [weakSelf.tableView.pullToRefreshView stopAnimating];
             };
             [NSThread performBlockOnMainThread:block];
         }];
