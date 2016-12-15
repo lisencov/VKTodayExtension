@@ -10,7 +10,7 @@
 #import "VKDialog.h"
 #import <SDWebImage/SDWebImageManager.h>
 
-static NSString* defaultImageUrl  = @"http://vk.com/images/camera_c.gif";
+static NSString* defaultImageUrl  = @"https://vk.com/images/camera_c.gif";
 
 @interface VKDialogsDataSource()
 
@@ -57,6 +57,10 @@ static NSString* defaultImageUrl  = @"http://vk.com/images/camera_c.gif";
 {
     if (((VKDialog*)dialog).type == VKDialogTypeMulti)
     {
+        if (dialog.dialogImageUri == nil)
+        {
+            dialog.dialogImageUri = defaultImageUrl;
+        }
         onComplite(dialog, nil);
     }
     else
