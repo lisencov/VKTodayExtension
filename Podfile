@@ -17,4 +17,5 @@ target 'VKTodayExtension' do
 
   # Pods for VKTodayExtension
 
+  pod 'SVPullToRefresh'
 end

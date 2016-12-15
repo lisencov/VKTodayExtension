@@ -76,12 +76,13 @@
     }
     self.tableView.hidden = YES;
     [self.activityIndicator startAnimating];
+    __weak TodayViewController* weakSelf = self;
     [self.dataSource updateDataWithComplitionHandler:^(NSArray *data) {
         void (^block)() = ^void()
         {
-            [self reloadTableView];
-            [self.activityIndicator stopAnimating];
-            self.tableView.hidden = NO;
+            [weakSelf reloadTableView];
+            [weakSelf.activityIndicator stopAnimating];
+            weakSelf.tableView.hidden = NO;
         };
         [NSThread performBlockOnMainThread:block];
     }];

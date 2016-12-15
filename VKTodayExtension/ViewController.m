@@ -6,6 +6,7 @@
 //  Copyright © 2016 lisenkov. All rights reserved.
 //
 
+#import <SVPullToRefresh/SVPullToRefresh.h>
 #import "ViewController.h"
 #import "Configuration.h"
 #import "CATOAuthController.h"
@@ -63,8 +64,14 @@
     }
     self.tableView.delegate = self;
     self.tableView.dataSource = self.tableDataSource;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 66.;
     [self configurateViews];
     
+    __weak ViewController* weakSelf = self;
+    [self.tableView addPullToRefreshWithActionHandler:^{
+        [weakSelf updateData];
+    }];
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -91,15 +98,7 @@
         {
             NSLog(@"%@", error);
         }
-        if([NSThread isMainThread])
-        {
-            onComplition();
-        }
-        else
-        {
-            dispatch_async(dispatch_get_main_queue(), onComplition);
-        }
-
+        [NSThread performBlockOnMainThread:onComplition];
     }];
 
     [self presentViewController:[[UINavigationController alloc] initWithRootViewController:oAuthController] animated:YES completion:nil];
@@ -145,7 +144,7 @@
             void (^block)() = ^void ()
             {
                 [self.tableView reloadData];
-
+                [self.tableView.pullToRefreshView stopAnimating];
             };
             [NSThread performBlockOnMainThread:block];
         }];
