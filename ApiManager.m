@@ -12,6 +12,7 @@ static NSString* rootUrl          = @"https://api.vk.com/";
 static NSString* dialogsApiMethod = @"messages.getDialogs";
 static NSString* usersApiMethod   = @"users.get";
 
+
 @interface ApiManager()
 
 @property (strong, nonatomic) NSURLSession *defaultSession;
@@ -44,10 +45,6 @@ static NSString* usersApiMethod   = @"users.get";
 }
 
 
--(void)getDialogsWithCount:(NSInteger)count offset:(NSInteger)offset
-{
-    
-}
 
 -(void)getDialogsWithCount:(NSInteger)count
                     offset:(NSInteger)offset

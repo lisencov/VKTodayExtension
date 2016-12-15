@@ -10,6 +10,8 @@
 #import "VKDialog.h"
 #import <SDWebImage/SDWebImageManager.h>
 
+static NSString* defaultImageUrl  = @"http://vk.com/images/camera_c.gif";
+
 @interface VKDialogsDataSource()
 
 @property (strong, nonatomic) SDWebImageManager*     imageManager;
@@ -67,6 +69,10 @@
              {
                  result = [result[@"response"] firstObject];
                  weakDialog.dialogImageUri = result[@"photo_50"];
+                 if (weakDialog.dialogImageUri == nil)
+                 {
+                     weakDialog.dialogImageUri = defaultImageUrl;
+                 }
                  weakDialog.title = [NSString stringWithFormat:@"%@ %@", result[@"last_name"], result[@"first_name"]];
                  onComplite(weakDialog, error);
              }];
