@@ -71,25 +71,25 @@
 		A5BFB14F1E00417B00932069 /* CATVKOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10C1E0032C900932069 /* CATVKOAuth.m */; };
 		A5BFB1501E00418100932069 /* CATYandexOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB10F1E0032C900932069 /* CATYandexOAuth.m */; };
 		A5BFB1511E00418500932069 /* CATYanexAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1111E0032C900932069 /* CATYanexAppearance.m */; };
-		A5BFB1561E005FB000932069 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1551E005FB000932069 /* VKUser.m */; };
-		A5BFB1591E005FD200932069 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1581E005FD100932069 /* VKDialog.m */; };
-		A5BFB15A1E005FD700932069 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1551E005FB000932069 /* VKUser.m */; };
-		A5BFB15B1E005FDA00932069 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1581E005FD100932069 /* VKDialog.m */; };
-		A5BFB15E1E005FFD00932069 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB15D1E005FFD00932069 /* UserManager.m */; };
-		A5BFB1611E00601300932069 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1601E00601200932069 /* ApiManager.m */; };
 		A5BFB1621E0061AE00932069 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1361E0033BF00932069 /* Configuration.m */; };
-		A5BFB1631E0061B100932069 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1601E00601200932069 /* ApiManager.m */; };
-		A5BFB1641E0061B400932069 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB15D1E005FFD00932069 /* UserManager.m */; };
-		A5BFB1691E00768B00932069 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */; };
-		A5BFB16A1E00773300932069 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */; };
-		A5BFB16D1E0127A200932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */; };
-		A5BFB16E1E01330800932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */; };
-		A5BFB17A1E018CF000932069 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1791E018CF000932069 /* DialogTableViewCell.m */; };
-		A5BFB17B1E018D1000932069 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1791E018CF000932069 /* DialogTableViewCell.m */; };
-		A5BFB17F1E018EAB00932069 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */; };
-		A5BFB1811E019AF200932069 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */; };
-		A5BFB1861E01C1E400932069 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */; };
-		A5BFB1871E01C74600932069 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */; };
+		A5BFB18D1E02898700932069 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18A1E02898700932069 /* NSThread+SimpleMainThread.m */; };
+		A5BFB18E1E02898700932069 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18C1E02898700932069 /* NSUserDefaults+GroupDefaults.m */; };
+		A5BFB18F1E02899200932069 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18A1E02898700932069 /* NSThread+SimpleMainThread.m */; };
+		A5BFB1901E02899400932069 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18C1E02898700932069 /* NSUserDefaults+GroupDefaults.m */; };
+		A5BFB1931E0289CF00932069 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1921E0289CF00932069 /* ApiManager.m */; };
+		A5BFB19A1E028A1500932069 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1961E028A1500932069 /* DialogTableViewCell.m */; };
+		A5BFB19B1E028A1500932069 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1991E028A1500932069 /* DialogTableViewDataSource.m */; };
+		A5BFB19C1E028A2300932069 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1961E028A1500932069 /* DialogTableViewCell.m */; };
+		A5BFB19D1E028A2700932069 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1991E028A1500932069 /* DialogTableViewDataSource.m */; };
+		A5BFB19E1E028A2B00932069 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1921E0289CF00932069 /* ApiManager.m */; };
+		A5BFB1A41E028A8600932069 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A11E028A8600932069 /* UserManager.m */; };
+		A5BFB1A51E028A8600932069 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A31E028A8600932069 /* VKDialog.m */; };
+		A5BFB1A81E028A9700932069 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A71E028A9700932069 /* VKUser.m */; };
+		A5BFB1A91E028AA300932069 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A31E028A8600932069 /* VKDialog.m */; };
+		A5BFB1AA1E028AA500932069 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A11E028A8600932069 /* UserManager.m */; };
+		A5BFB1AB1E028AA700932069 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A71E028A9700932069 /* VKUser.m */; };
+		A5BFB1AE1E028AB800932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */; };
+		A5BFB1AF1E028AC000932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,29 +195,29 @@
 		A5BFB1361E0033BF00932069 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Configuration.m; path = VKTodayExtension/Configuration.m; sourceTree = "<group>"; };
 		A5BFB1381E003CA000932069 /* VKTodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VKTodayExtension.entitlements; sourceTree = "<group>"; };
 		A5BFB1391E003CD400932069 /* VKExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VKExtension.entitlements; sourceTree = "<group>"; };
-		A5BFB1541E005FB000932069 /* VKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKUser.h; sourceTree = "<group>"; };
-		A5BFB1551E005FB000932069 /* VKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKUser.m; sourceTree = "<group>"; };
-		A5BFB1571E005FD100932069 /* VKDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDialog.h; sourceTree = "<group>"; };
-		A5BFB1581E005FD100932069 /* VKDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDialog.m; sourceTree = "<group>"; };
-		A5BFB15C1E005FFD00932069 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
-		A5BFB15D1E005FFD00932069 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
-		A5BFB15F1E00601200932069 /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
-		A5BFB1601E00601200932069 /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
 		A5BFB1651E00635E00932069 /* AuthControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthControllerProtocol.h; path = VKTodayExtension/Catamaran/AuthControllerProtocol.h; sourceTree = SOURCE_ROOT; };
 		A5BFB1661E00689000932069 /* ApiManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiManagerProtocol.h; path = VKTodayExtension/Catamaran/ApiManagerProtocol.h; sourceTree = "<group>"; };
-		A5BFB1671E00768B00932069 /* NSUserDefaults+GroupDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+GroupDefaults.h"; sourceTree = "<group>"; };
-		A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+GroupDefaults.m"; sourceTree = "<group>"; };
-		A5BFB16B1E0127A200932069 /* VKDialogsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKDialogsDataSource.h; sourceTree = "<group>"; };
-		A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKDialogsDataSource.m; sourceTree = "<group>"; };
-		A5BFB16F1E013C6200932069 /* DialogProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogProtocol.h; sourceTree = "<group>"; };
-		A5BFB1781E018CF000932069 /* DialogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewCell.h; sourceTree = "<group>"; };
-		A5BFB1791E018CF000932069 /* DialogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogTableViewCell.m; sourceTree = "<group>"; };
-		A5BFB17C1E018E6600932069 /* DialogTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewCellProtocol.h; sourceTree = "<group>"; };
-		A5BFB17D1E018EAB00932069 /* DialogTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTableViewDataSource.h; sourceTree = "<group>"; };
-		A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogTableViewDataSource.m; sourceTree = "<group>"; };
-		A5BFB1801E018F6D00932069 /* DialogDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogDataSourceProtocol.h; sourceTree = "<group>"; };
-		A5BFB1841E01C1E400932069 /* NSThread+SimpleMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+SimpleMainThread.h"; sourceTree = "<group>"; };
-		A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+SimpleMainThread.m"; sourceTree = "<group>"; };
+		A5BFB1891E02898700932069 /* NSThread+SimpleMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSThread+SimpleMainThread.h"; path = "Core/NSThread+SimpleMainThread.h"; sourceTree = "<group>"; };
+		A5BFB18A1E02898700932069 /* NSThread+SimpleMainThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSThread+SimpleMainThread.m"; path = "Core/NSThread+SimpleMainThread.m"; sourceTree = "<group>"; };
+		A5BFB18B1E02898700932069 /* NSUserDefaults+GroupDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+GroupDefaults.h"; path = "Core/NSUserDefaults+GroupDefaults.h"; sourceTree = "<group>"; };
+		A5BFB18C1E02898700932069 /* NSUserDefaults+GroupDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+GroupDefaults.m"; path = "Core/NSUserDefaults+GroupDefaults.m"; sourceTree = "<group>"; };
+		A5BFB1911E0289CF00932069 /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiManager.h; path = Core/ApiManager.h; sourceTree = "<group>"; };
+		A5BFB1921E0289CF00932069 /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiManager.m; path = Core/ApiManager.m; sourceTree = "<group>"; };
+		A5BFB1941E0289DC00932069 /* DialogDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogDataSourceProtocol.h; path = Core/DialogDataSourceProtocol.h; sourceTree = "<group>"; };
+		A5BFB1951E028A1500932069 /* DialogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogTableViewCell.h; path = Core/DialogTableViewCell.h; sourceTree = "<group>"; };
+		A5BFB1961E028A1500932069 /* DialogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialogTableViewCell.m; path = Core/DialogTableViewCell.m; sourceTree = "<group>"; };
+		A5BFB1971E028A1500932069 /* DialogTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogTableViewCellProtocol.h; path = Core/DialogTableViewCellProtocol.h; sourceTree = "<group>"; };
+		A5BFB1981E028A1500932069 /* DialogTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogTableViewDataSource.h; path = Core/DialogTableViewDataSource.h; sourceTree = "<group>"; };
+		A5BFB1991E028A1500932069 /* DialogTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialogTableViewDataSource.m; path = Core/DialogTableViewDataSource.m; sourceTree = "<group>"; };
+		A5BFB19F1E028A3C00932069 /* DialogProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialogProtocol.h; path = Core/DialogProtocol.h; sourceTree = "<group>"; };
+		A5BFB1A01E028A8600932069 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = Core/UserManager.h; sourceTree = "<group>"; };
+		A5BFB1A11E028A8600932069 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = Core/UserManager.m; sourceTree = "<group>"; };
+		A5BFB1A21E028A8600932069 /* VKDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKDialog.h; path = Core/VKDialog.h; sourceTree = "<group>"; };
+		A5BFB1A31E028A8600932069 /* VKDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKDialog.m; path = Core/VKDialog.m; sourceTree = "<group>"; };
+		A5BFB1A61E028A9700932069 /* VKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKUser.h; path = Core/VKUser.h; sourceTree = "<group>"; };
+		A5BFB1A71E028A9700932069 /* VKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKUser.m; path = Core/VKUser.m; sourceTree = "<group>"; };
+		A5BFB1AC1E028AB800932069 /* VKDialogsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKDialogsDataSource.h; path = Core/VKDialogsDataSource.h; sourceTree = "<group>"; };
+		A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKDialogsDataSource.m; path = Core/VKDialogsDataSource.m; sourceTree = "<group>"; };
 		B42766C78526DCDE3506682C /* libPods-VKTodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKTodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0AFFB18FA59AFD212BC187 /* Pods-VKExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKExtension/Pods-VKExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		DCE6B9B0C2B53E4556B1547B /* libPods-VKExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,7 +247,7 @@
 		A5BFB0961E00284F00932069 = {
 			isa = PBXGroup;
 			children = (
-				A5BFB1521E005F6300932069 /* Core */,
+				A5BFB1881E02893400932069 /* Core */,
 				A5BFB0A11E00285200932069 /* VKTodayExtension */,
 				A5BFB0C41E0028F400932069 /* VKExtension */,
 				A5BFB0C11E0028F400932069 /* Frameworks */,
@@ -321,7 +321,7 @@
 				A5BFB1151E0032C900932069 /* ViewController */,
 			);
 			name = Catamaran;
-			path = VKTodayExtension/Catamaran;
+			path = ../VKTodayExtension/Catamaran;
 			sourceTree = "<group>";
 		};
 		A5BFB0D41E0032C800932069 /* Logic */ = {
@@ -488,68 +488,72 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		A5BFB1521E005F6300932069 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				A5BFB1831E019EBD00932069 /* Supporting Files */,
-				A5BFB0D31E0032C800932069 /* Catamaran */,
-				A5BFB1771E018CD800932069 /* Views */,
-				A5BFB1531E005F8E00932069 /* Models */,
-				A5BFB1821E019E9900932069 /* API */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		A5BFB1531E005F8E00932069 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A5BFB1541E005FB000932069 /* VKUser.h */,
-				A5BFB1551E005FB000932069 /* VKUser.m */,
-				A5BFB16F1E013C6200932069 /* DialogProtocol.h */,
-				A5BFB1571E005FD100932069 /* VKDialog.h */,
-				A5BFB1581E005FD100932069 /* VKDialog.m */,
-				A5BFB15C1E005FFD00932069 /* UserManager.h */,
-				A5BFB15D1E005FFD00932069 /* UserManager.m */,
+				A5BFB1A61E028A9700932069 /* VKUser.h */,
+				A5BFB1A71E028A9700932069 /* VKUser.m */,
+				A5BFB1A01E028A8600932069 /* UserManager.h */,
+				A5BFB1A11E028A8600932069 /* UserManager.m */,
+				A5BFB1A21E028A8600932069 /* VKDialog.h */,
+				A5BFB1A31E028A8600932069 /* VKDialog.m */,
+				A5BFB19F1E028A3C00932069 /* DialogProtocol.h */,
 			);
 			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A5BFB1771E018CD800932069 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A5BFB17C1E018E6600932069 /* DialogTableViewCellProtocol.h */,
-				A5BFB1781E018CF000932069 /* DialogTableViewCell.h */,
-				A5BFB1791E018CF000932069 /* DialogTableViewCell.m */,
-				A5BFB17D1E018EAB00932069 /* DialogTableViewDataSource.h */,
-				A5BFB17E1E018EAB00932069 /* DialogTableViewDataSource.m */,
+				A5BFB1951E028A1500932069 /* DialogTableViewCell.h */,
+				A5BFB1961E028A1500932069 /* DialogTableViewCell.m */,
+				A5BFB1971E028A1500932069 /* DialogTableViewCellProtocol.h */,
+				A5BFB1981E028A1500932069 /* DialogTableViewDataSource.h */,
+				A5BFB1991E028A1500932069 /* DialogTableViewDataSource.m */,
 			);
 			name = Views;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A5BFB1821E019E9900932069 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				A5BFB1911E0289CF00932069 /* ApiManager.h */,
+				A5BFB1921E0289CF00932069 /* ApiManager.m */,
 				A5BFB1661E00689000932069 /* ApiManagerProtocol.h */,
-				A5BFB15F1E00601200932069 /* ApiManager.h */,
-				A5BFB1601E00601200932069 /* ApiManager.m */,
 				A5BFB1351E0033BF00932069 /* Configuration.h */,
 				A5BFB1361E0033BF00932069 /* Configuration.m */,
-				A5BFB1801E018F6D00932069 /* DialogDataSourceProtocol.h */,
-				A5BFB16B1E0127A200932069 /* VKDialogsDataSource.h */,
-				A5BFB16C1E0127A200932069 /* VKDialogsDataSource.m */,
+				A5BFB1941E0289DC00932069 /* DialogDataSourceProtocol.h */,
+				A5BFB1AC1E028AB800932069 /* VKDialogsDataSource.h */,
+				A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */,
 			);
 			name = API;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A5BFB1831E019EBD00932069 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5BFB1671E00768B00932069 /* NSUserDefaults+GroupDefaults.h */,
-				A5BFB1681E00768B00932069 /* NSUserDefaults+GroupDefaults.m */,
-				A5BFB1841E01C1E400932069 /* NSThread+SimpleMainThread.h */,
-				A5BFB1851E01C1E400932069 /* NSThread+SimpleMainThread.m */,
+				A5BFB1891E02898700932069 /* NSThread+SimpleMainThread.h */,
+				A5BFB18A1E02898700932069 /* NSThread+SimpleMainThread.m */,
+				A5BFB18B1E02898700932069 /* NSUserDefaults+GroupDefaults.h */,
+				A5BFB18C1E02898700932069 /* NSUserDefaults+GroupDefaults.m */,
 			);
 			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A5BFB1881E02893400932069 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB0D31E0032C800932069 /* Catamaran */,
+				A5BFB1531E005F8E00932069 /* Models */,
+				A5BFB1771E018CD800932069 /* Views */,
+				A5BFB1821E019E9900932069 /* API */,
+				A5BFB1831E019EBD00932069 /* Supporting Files */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		B13C652F298B9140F592D073 /* Pods */ = {
@@ -761,43 +765,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5BFB1611E00601300932069 /* ApiManager.m in Sources */,
-				A5BFB15E1E005FFD00932069 /* UserManager.m in Sources */,
 				A5BFB1291E0032C900932069 /* CATMailRuOAuth.m in Sources */,
 				A5BFB12D1E0032C900932069 /* CATVKOAuth.m in Sources */,
 				A5BFB1271E0032C900932069 /* CATLinkedInOAuth.m in Sources */,
-				A5BFB1561E005FB000932069 /* VKUser.m in Sources */,
 				A5BFB12B1E0032C900932069 /* CATOKOAuth.m in Sources */,
 				A5BFB12F1E0032C900932069 /* CATYanexAppearance.m in Sources */,
-				A5BFB1591E005FD200932069 /* VKDialog.m in Sources */,
 				A5BFB0B01E00285200932069 /* VKTodayExtension.xcdatamodeld in Sources */,
 				A5BFB1251E0032C900932069 /* CATInstagramOAuth.m in Sources */,
+				A5BFB1AE1E028AB800932069 /* VKDialogsDataSource.m in Sources */,
 				A5BFB1231E0032C900932069 /* CATGoogleOAuth.m in Sources */,
 				A5BFB1311E0032C900932069 /* CATOAuthController.m in Sources */,
-				A5BFB16D1E0127A200932069 /* VKDialogsDataSource.m in Sources */,
 				A5BFB12A1E0032C900932069 /* CATOKAppearance.m in Sources */,
 				A5BFB11D1E0032C900932069 /* CATSocialOAuth.m in Sources */,
 				A5BFB1221E0032C900932069 /* CATGoogleAppearance.m in Sources */,
 				A5BFB12E1E0032C900932069 /* CATYandexOAuth.m in Sources */,
-				A5BFB1691E00768B00932069 /* NSUserDefaults+GroupDefaults.m in Sources */,
 				A5BFB0AA1E00285200932069 /* ViewController.m in Sources */,
 				A5BFB1201E0032C900932069 /* CATFoursquareAppearance.m in Sources */,
 				A5BFB1191E0032C900932069 /* CATOAuthManager.m in Sources */,
-				A5BFB17A1E018CF000932069 /* DialogTableViewCell.m in Sources */,
+				A5BFB1931E0289CF00932069 /* ApiManager.m in Sources */,
 				A5BFB11A1E0032C900932069 /* CATOAuthResponseParser.m in Sources */,
+				A5BFB1A81E028A9700932069 /* VKUser.m in Sources */,
 				A5BFB1281E0032C900932069 /* CATMailRuAppearance.m in Sources */,
-				A5BFB1861E01C1E400932069 /* NSThread+SimpleMainThread.m in Sources */,
+				A5BFB19B1E028A1500932069 /* DialogTableViewDataSource.m in Sources */,
+				A5BFB18D1E02898700932069 /* NSThread+SimpleMainThread.m in Sources */,
+				A5BFB1A41E028A8600932069 /* UserManager.m in Sources */,
 				A5BFB1371E0033BF00932069 /* Configuration.m in Sources */,
 				A5BFB1181E0032C900932069 /* CATOAuthCredential.m in Sources */,
 				A5BFB0A71E00285200932069 /* AppDelegate.m in Sources */,
 				A5BFB1261E0032C900932069 /* CATLinkedInAppearance.m in Sources */,
+				A5BFB1A51E028A8600932069 /* VKDialog.m in Sources */,
 				A5BFB11B1E0032C900932069 /* CATSocialOAuthFactory.m in Sources */,
 				A5BFB1241E0032C900932069 /* CATInstagramAppearance.m in Sources */,
 				A5BFB1301E0032C900932069 /* CATOAuthView.m in Sources */,
 				A5BFB11F1E0032C900932069 /* CATFacebookOAuth.m in Sources */,
+				A5BFB18E1E02898700932069 /* NSUserDefaults+GroupDefaults.m in Sources */,
 				A5BFB0A41E00285200932069 /* main.m in Sources */,
+				A5BFB19A1E028A1500932069 /* DialogTableViewCell.m in Sources */,
 				A5BFB1211E0032C900932069 /* CATFoursquareOAuth.m in Sources */,
-				A5BFB17F1E018EAB00932069 /* DialogTableViewDataSource.m in Sources */,
 				A5BFB12C1E0032C900932069 /* CATVKAppearance.m in Sources */,
 				A5BFB11E1E0032C900932069 /* CATFacebookAppearance.m in Sources */,
 				A5BFB11C1E0032C900932069 /* CATOAuthAppearance.m in Sources */,
@@ -808,24 +812,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BFB1AA1E028AA500932069 /* UserManager.m in Sources */,
+				A5BFB19E1E028A2B00932069 /* ApiManager.m in Sources */,
 				A5BFB13F1E00412B00932069 /* CATSocialOAuth.m in Sources */,
 				A5BFB1491E00416200932069 /* CATLinkedInOAuth.m in Sources */,
 				A5BFB14C1E00416F00932069 /* CATOKAppearance.m in Sources */,
-				A5BFB15A1E005FD700932069 /* VKUser.m in Sources */,
 				A5BFB1511E00418500932069 /* CATYanexAppearance.m in Sources */,
 				A5BFB13C1E003FB700932069 /* CATOAuthResponseParser.m in Sources */,
+				A5BFB1A91E028AA300932069 /* VKDialog.m in Sources */,
 				A5BFB1411E00413600932069 /* CATFacebookOAuth.m in Sources */,
 				A5BFB1451E00414A00932069 /* CATGoogleAppearance.m in Sources */,
 				A5BFB0C71E0028F400932069 /* TodayViewController.m in Sources */,
 				A5BFB13E1E00412800932069 /* CATOAuthAppearance.m in Sources */,
-				A5BFB16A1E00773300932069 /* NSUserDefaults+GroupDefaults.m in Sources */,
+				A5BFB1AF1E028AC000932069 /* VKDialogsDataSource.m in Sources */,
 				A5BFB14B1E00416A00932069 /* CATMailRuOAuth.m in Sources */,
-				A5BFB1811E019AF200932069 /* DialogTableViewDataSource.m in Sources */,
-				A5BFB1631E0061B100932069 /* ApiManager.m in Sources */,
 				A5BFB1421E00413F00932069 /* CATFoursquareAppearance.m in Sources */,
-				A5BFB1871E01C74600932069 /* NSThread+SimpleMainThread.m in Sources */,
+				A5BFB19D1E028A2700932069 /* DialogTableViewDataSource.m in Sources */,
 				A5BFB1401E00413300932069 /* CATFacebookAppearance.m in Sources */,
 				A5BFB1481E00415D00932069 /* CATLinkedInAppearance.m in Sources */,
+				A5BFB19C1E028A2300932069 /* DialogTableViewCell.m in Sources */,
 				A5BFB1621E0061AE00932069 /* Configuration.m in Sources */,
 				A5BFB13A1E003FAF00932069 /* CATOAuthCredential.m in Sources */,
 				A5BFB1501E00418100932069 /* CATYandexOAuth.m in Sources */,
@@ -833,16 +838,15 @@
 				A5BFB1471E00415300932069 /* CATInstagramOAuth.m in Sources */,
 				A5BFB14F1E00417B00932069 /* CATVKOAuth.m in Sources */,
 				A5BFB1431E00414200932069 /* CATFoursquareOAuth.m in Sources */,
-				A5BFB1641E0061B400932069 /* UserManager.m in Sources */,
+				A5BFB1901E02899400932069 /* NSUserDefaults+GroupDefaults.m in Sources */,
 				A5BFB1441E00414700932069 /* CATGoogleOAuth.m in Sources */,
-				A5BFB15B1E005FDA00932069 /* VKDialog.m in Sources */,
 				A5BFB14D1E00417200932069 /* CATOKOAuth.m in Sources */,
 				A5BFB13B1E003FB300932069 /* CATOAuthManager.m in Sources */,
+				A5BFB1AB1E028AA700932069 /* VKUser.m in Sources */,
 				A5BFB14E1E00417800932069 /* CATVKAppearance.m in Sources */,
 				A5BFB14A1E00416700932069 /* CATMailRuAppearance.m in Sources */,
-				A5BFB17B1E018D1000932069 /* DialogTableViewCell.m in Sources */,
+				A5BFB18F1E02899200932069 /* NSThread+SimpleMainThread.m in Sources */,
 				A5BFB13D1E003FBA00932069 /* CATSocialOAuthFactory.m in Sources */,
-				A5BFB16E1E01330800932069 /* VKDialogsDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
