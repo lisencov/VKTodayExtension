@@ -13,5 +13,6 @@
 -(void)setTitle:(NSString*)title;
 -(void)setBody:(NSString*)body;
 -(void)setImage:(UIImage*)image;
+-(void)setUnread:(BOOL)isUnread;
 
 @end

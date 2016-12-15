@@ -21,11 +21,13 @@
 @synthesize body;
 @synthesize dialogImageUri;
 @synthesize lastUserId;
+@synthesize isUnread;
 
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
     if (self = [super init])
     {
+        isUnread = [dictionary[@"unread"] integerValue] > 0;
         NSDictionary *message = dictionary[@"message"];
         NSInteger chatId = [message[@"chat_id"] integerValue];
         _type = chatId > 0 ? VKDialogTypeMulti : VKDialogTypePrivate;

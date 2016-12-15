@@ -56,11 +56,19 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Текст сообщения" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyM-QP-AXU">
-                                                    <rect key="frame" x="64" y="31" width="208" height="40"/>
+                                                    <rect key="frame" x="64" y="31" width="190" height="40"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8SN-uf-6FM">
+                                                    <rect key="frame" x="262" y="38" width="10" height="10"/>
+                                                    <color key="backgroundColor" red="0.1764705882" green="0.4941176471" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="10" id="Ve4-Lh-nlK"/>
+                                                        <constraint firstAttribute="height" constant="10" id="bYL-qY-MwE"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="XyM-QP-AXU" firstAttribute="top" secondItem="otY-1h-5n1" secondAttribute="bottom" constant="8" id="1wo-TC-eTy"/>
@@ -70,15 +78,18 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="iP1-AE-Gou" secondAttribute="bottom" constant="8" id="SsX-zY-WYO"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="XyM-QP-AXU" secondAttribute="bottom" constant="8" id="WlK-nv-8tc"/>
                                                 <constraint firstItem="iP1-AE-Gou" firstAttribute="leading" secondItem="rR0-rC-YyU" secondAttribute="leadingMargin" constant="8" id="dEo-9w-VW5"/>
+                                                <constraint firstItem="8SN-uf-6FM" firstAttribute="leading" secondItem="XyM-QP-AXU" secondAttribute="trailing" constant="8" id="jK2-SY-J8J"/>
+                                                <constraint firstItem="8SN-uf-6FM" firstAttribute="centerY" secondItem="rR0-rC-YyU" secondAttribute="centerY" id="lnw-42-jYq"/>
                                                 <constraint firstItem="XyM-QP-AXU" firstAttribute="leading" secondItem="iP1-AE-Gou" secondAttribute="trailing" constant="8" id="m1n-xw-LOA"/>
+                                                <constraint firstAttribute="trailing" secondItem="8SN-uf-6FM" secondAttribute="trailing" constant="16" id="ukV-Oi-huC"/>
                                                 <constraint firstItem="iP1-AE-Gou" firstAttribute="top" secondItem="otY-1h-5n1" secondAttribute="bottom" constant="8" id="wYu-LT-BYh"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="XyM-QP-AXU" secondAttribute="trailing" constant="8" id="yy8-0E-w7L"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="bodyLabel" destination="XyM-QP-AXU" id="9rv-ho-g6S"/>
                                             <outlet property="imageContainer" destination="iP1-AE-Gou" id="bY6-hx-EZi"/>
                                             <outlet property="titleLabel" destination="otY-1h-5n1" id="UmS-3T-J2j"/>
+                                            <outlet property="unreadView" destination="8SN-uf-6FM" id="tfk-G6-KZz"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

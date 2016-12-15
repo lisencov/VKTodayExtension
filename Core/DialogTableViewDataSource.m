@@ -53,6 +53,7 @@
     id<DialogProtocol> item = [self.dataSource.data objectAtIndex:indexPath.row];
     [cell setTitle: item.title];
     [cell setBody: item.body];
+    [cell setUnread:item.isUnread];
     
     __weak DialogTableViewDataSource* weakSelf = self;
     [self.dataSource getDetaildInformationForDialog:item onComplete:^(id<DialogProtocol>dialog, NSError *error) {

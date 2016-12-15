@@ -15,6 +15,8 @@
 @property (strong, atomic) NSString*  title;
 @property (strong, atomic) NSString*  body;
 @property (strong, atomic) NSString*  dialogImageUri;
-@property (assign, atomic) NSInteger lastUserId;
+@property (assign, atomic) NSInteger  lastUserId;
+
+@property (assign, atomic) BOOL       isUnread;
 
 @end

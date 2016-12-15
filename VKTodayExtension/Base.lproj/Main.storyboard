@@ -92,27 +92,37 @@
                                                         <constraint firstAttribute="height" constant="50" id="LkV-oJ-NwM"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="От кого" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGX-pV-K9H">
-                                                    <rect key="frame" x="74" y="8" width="277" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evv-Kg-Zlg">
-                                                    <rect key="frame" x="74" y="37" width="285" height="17"/>
+                                                    <rect key="frame" x="74" y="37" width="246" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s8r-Uc-wtL">
+                                                    <rect key="frame" x="336" y="26" width="15" height="15"/>
+                                                    <color key="backgroundColor" red="0.1764705882" green="0.4941176471" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="15" id="se3-Md-L1l"/>
+                                                        <constraint firstAttribute="height" constant="15" id="wLc-jL-F8y"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="От кого" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGX-pV-K9H">
+                                                    <rect key="frame" x="74" y="8" width="246" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Evv-Kg-Zlg" firstAttribute="leading" secondItem="Nei-HH-iCD" secondAttribute="trailing" constant="8" id="5qt-uc-9wd"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="NGX-pV-K9H" secondAttribute="trailing" constant="16" id="QrY-wT-OMd"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="s8r-Uc-wtL" secondAttribute="trailing" constant="16" id="7I6-DP-t0k"/>
+                                                <constraint firstItem="s8r-Uc-wtL" firstAttribute="leading" secondItem="Evv-Kg-Zlg" secondAttribute="trailing" constant="16" id="9sf-Lo-Dzb"/>
+                                                <constraint firstItem="s8r-Uc-wtL" firstAttribute="centerY" secondItem="Nei-HH-iCD" secondAttribute="centerY" id="NSj-ua-2yF"/>
                                                 <constraint firstItem="Nei-HH-iCD" firstAttribute="leading" secondItem="3GR-da-kju" secondAttribute="leading" constant="16" id="Rii-vT-qnd"/>
                                                 <constraint firstAttribute="bottom" secondItem="Nei-HH-iCD" secondAttribute="bottom" constant="8" id="a5X-es-0Pk"/>
-                                                <constraint firstAttribute="trailing" secondItem="Evv-Kg-Zlg" secondAttribute="trailing" constant="16" id="d2O-1B-KeU"/>
                                                 <constraint firstItem="Nei-HH-iCD" firstAttribute="top" secondItem="3GR-da-kju" secondAttribute="top" constant="8" id="glW-Mb-V6p"/>
                                                 <constraint firstItem="NGX-pV-K9H" firstAttribute="leading" secondItem="Nei-HH-iCD" secondAttribute="trailing" constant="8" id="kI0-JC-v9d"/>
+                                                <constraint firstItem="s8r-Uc-wtL" firstAttribute="leading" secondItem="NGX-pV-K9H" secondAttribute="trailing" constant="16" id="stE-84-MUW"/>
                                                 <constraint firstItem="NGX-pV-K9H" firstAttribute="top" secondItem="Nei-HH-iCD" secondAttribute="top" id="t6D-f4-R6z"/>
                                                 <constraint firstItem="Evv-Kg-Zlg" firstAttribute="top" secondItem="NGX-pV-K9H" secondAttribute="bottom" constant="8" id="ujU-Ht-70l"/>
                                             </constraints>
@@ -121,6 +131,7 @@
                                             <outlet property="bodyLabel" destination="Evv-Kg-Zlg" id="fJI-QU-gSE"/>
                                             <outlet property="imageContainer" destination="Nei-HH-iCD" id="DIh-Rw-Cqa"/>
                                             <outlet property="titleLabel" destination="NGX-pV-K9H" id="ZSh-Ov-zCg"/>
+                                            <outlet property="unreadView" destination="s8r-Uc-wtL" id="krM-OQ-hBS"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

@@ -19,4 +19,5 @@ typedef enum VKDialogType
 
 @property (readonly, assign) VKDialogType type;
 
+
 @end

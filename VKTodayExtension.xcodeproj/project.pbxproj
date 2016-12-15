@@ -495,9 +495,9 @@
 				A5BFB1A71E028A9700932069 /* VKUser.m */,
 				A5BFB1A01E028A8600932069 /* UserManager.h */,
 				A5BFB1A11E028A8600932069 /* UserManager.m */,
+				A5BFB19F1E028A3C00932069 /* DialogProtocol.h */,
 				A5BFB1A21E028A8600932069 /* VKDialog.h */,
 				A5BFB1A31E028A8600932069 /* VKDialog.m */,
-				A5BFB19F1E028A3C00932069 /* DialogProtocol.h */,
 			);
 			name = Models;
 			path = ..;
@@ -506,9 +506,9 @@
 		A5BFB1771E018CD800932069 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A5BFB1971E028A1500932069 /* DialogTableViewCellProtocol.h */,
 				A5BFB1951E028A1500932069 /* DialogTableViewCell.h */,
 				A5BFB1961E028A1500932069 /* DialogTableViewCell.m */,
-				A5BFB1971E028A1500932069 /* DialogTableViewCellProtocol.h */,
 				A5BFB1981E028A1500932069 /* DialogTableViewDataSource.h */,
 				A5BFB1991E028A1500932069 /* DialogTableViewDataSource.m */,
 			);

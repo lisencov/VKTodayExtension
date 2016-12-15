@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *bodyLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imageContainer;
-
+@property (weak, nonatomic) IBOutlet UIView  *unreadView;
 
 @end
 
@@ -23,6 +23,9 @@
     [super awakeFromNib];
     self.imageContainer.layer.cornerRadius = self.imageContainer.bounds.size.width /2;
     self.imageContainer.layer.masksToBounds = YES;
+    
+    self.unreadView.layer.cornerRadius = self.unreadView.bounds.size.width /2;
+    self.unreadView.layer.masksToBounds = YES;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -46,5 +49,9 @@
     self.imageContainer.image = image;
 }
 
+-(void)setUnread:(BOOL)isUnread
+{
+    self.unreadView.hidden = !isUnread;
+}
 
 @end
