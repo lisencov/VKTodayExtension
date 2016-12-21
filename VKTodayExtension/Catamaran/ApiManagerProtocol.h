@@ -14,6 +14,10 @@
 
 -(void)getUserInformationById:(NSInteger)uid complitionHandler:(void(^)(NSDictionary*result, NSError*error))complitionHandler;
 
+-(void)searchFriendsWithString:(NSString*)searchString complitionHandler:(void(^)(NSDictionary*result, NSError*error))complitionHandler;
+
+-(void)sendMessage:(NSString*)message toUser:(NSInteger)uid complitionHandler:(void(^)(NSDictionary*result, NSError*error))complitionHandler;
+
 -(void)logout;
 
 @end

@@ -8,7 +8,7 @@
 
 #import "NSUserDefaults+GroupDefaults.h"
 
-static NSString* gruopIdentifier = @"group.VKTodayExtension";
+static NSString* gruopIdentifier = @"group.com.siriKitTestApp";
 
 @implementation NSUserDefaults (GroupDefaults)
 

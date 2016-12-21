@@ -11,7 +11,8 @@
 static NSString* rootUrl          = @"https://api.vk.com/";
 static NSString* dialogsApiMethod = @"messages.getDialogs";
 static NSString* usersApiMethod   = @"users.get";
-
+static NSString* usersSearchApiMethod = @"users.search";
+static NSString* messagesSendMethod = @"messages.send";
 
 @interface ApiManager()
 
@@ -73,6 +74,29 @@ static NSString* usersApiMethod   = @"users.get";
     [self executeGETRequestWithURL:url complitionHandler:onComplite];
 }
 
+-(void)searchFriendsWithString:(NSString *)searchString complitionHandler:(void (^)(NSDictionary *, NSError *))complitionHandler
+{
+    NSURL *url = [self constructGetMethodURLWithParams:@{
+                                                         @"q": searchString,
+                                                         @"access_token": self.accessToken,
+                                                         @"v" : @"5.60",
+                                                         @"from_list": @"friends"
+                                                         } forMethod:usersSearchApiMethod];
+    [self executeGETRequestWithURL:url complitionHandler:complitionHandler];
+    
+}
+
+-(void)sendMessage:(NSString *)message toUser:(NSInteger)uid complitionHandler:(void (^)(NSDictionary *, NSError *))complitionHandler
+{
+    NSURL *url = [self constructGetMethodURLWithParams:@{
+                                                         @"access_token": self.accessToken,
+                                                         @"v" : @"5.60", 
+                                                         @"user_id": [NSNumber numberWithInteger:uid],
+                                                         @"message": message
+                                                         } forMethod:messagesSendMethod];
+    [self executeGETRequestWithURL:url complitionHandler:complitionHandler];
+}
+
 -(void)logout
 {
     NSURL *url = [NSURL URLWithString: [rootUrl stringByAppendingPathComponent:@"oauth/logout"]];
@@ -117,7 +141,7 @@ static NSString* usersApiMethod   = @"users.get";
         urlString = [urlString stringByAppendingString:[NSString stringWithFormat:@"%@=%@&", key, params[key]]];
     }
     urlString = [urlString substringToIndex:[urlString length] -1];
-    return [NSURL URLWithString:urlString];
+    return [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
 }
 
 

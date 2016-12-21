@@ -9,6 +9,32 @@
 /* Begin PBXBuildFile section */
 		939243831FB9E5B4AE934C15 /* libPods-VKExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE6B9B0C2B53E4556B1547B /* libPods-VKExtension.a */; };
 		949B070720B3CB95331F9BA9 /* libPods-VKTodayExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B42766C78526DCDE3506682C /* libPods-VKTodayExtension.a */; };
+		A56975831E0AFB370062FE44 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A71E028A9700932069 /* VKUser.m */; };
+		A56975841E0AFB370062FE44 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A71E028A9700932069 /* VKUser.m */; };
+		A56975851E0AFB3A0062FE44 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A31E028A8600932069 /* VKDialog.m */; };
+		A56975861E0AFB3A0062FE44 /* VKDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A31E028A8600932069 /* VKDialog.m */; };
+		A56975871E0AFB3E0062FE44 /* VKFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1DA1E0AF29600932069 /* VKFriend.m */; };
+		A56975881E0AFB3E0062FE44 /* VKFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1DA1E0AF29600932069 /* VKFriend.m */; };
+		A56975891E0AFB3E0062FE44 /* VKFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1DA1E0AF29600932069 /* VKFriend.m */; };
+		A569758A1E0AFB460062FE44 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A11E028A8600932069 /* UserManager.m */; };
+		A569758B1E0AFB480062FE44 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A11E028A8600932069 /* UserManager.m */; };
+		A569758C1E0AFB4D0062FE44 /* VKFriendsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1D71E0AF07200932069 /* VKFriendsDataSource.m */; };
+		A569758D1E0AFB4D0062FE44 /* VKFriendsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1D71E0AF07200932069 /* VKFriendsDataSource.m */; };
+		A56975901E0AFB540062FE44 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1361E0033BF00932069 /* Configuration.m */; };
+		A56975911E0AFB550062FE44 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1361E0033BF00932069 /* Configuration.m */; };
+		A56975921E0AFB590062FE44 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1921E0289CF00932069 /* ApiManager.m */; };
+		A56975931E0AFB5A0062FE44 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1921E0289CF00932069 /* ApiManager.m */; };
+		A56975941E0AFB610062FE44 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18A1E02898700932069 /* NSThread+SimpleMainThread.m */; };
+		A56975951E0AFB610062FE44 /* NSThread+SimpleMainThread.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18A1E02898700932069 /* NSThread+SimpleMainThread.m */; };
+		A56975961E0AFB640062FE44 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18C1E02898700932069 /* NSUserDefaults+GroupDefaults.m */; };
+		A56975971E0AFB640062FE44 /* NSUserDefaults+GroupDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB18C1E02898700932069 /* NSUserDefaults+GroupDefaults.m */; };
+		A56975981E0AFB7A0062FE44 /* VKFriendsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1D71E0AF07200932069 /* VKFriendsDataSource.m */; };
+		A56975991E0AFB880062FE44 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1961E028A1500932069 /* DialogTableViewCell.m */; };
+		A569759A1E0AFB880062FE44 /* DialogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1961E028A1500932069 /* DialogTableViewCell.m */; };
+		A569759B1E0AFB970062FE44 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1991E028A1500932069 /* DialogTableViewDataSource.m */; };
+		A569759C1E0AFB970062FE44 /* DialogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1991E028A1500932069 /* DialogTableViewDataSource.m */; };
+		A569759F1E0B0CAB0062FE44 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A569759E1E0B0CAB0062FE44 /* LocalAuthentication.framework */; };
+		A56975A01E0B0CB30062FE44 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A569759E1E0B0CAB0062FE44 /* LocalAuthentication.framework */; };
 		A5BFB0A41E00285200932069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0A31E00285200932069 /* main.m */; };
 		A5BFB0A71E00285200932069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0A61E00285200932069 /* AppDelegate.m */; };
 		A5BFB0AA1E00285200932069 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB0A91E00285200932069 /* ViewController.m */; };
@@ -90,6 +116,14 @@
 		A5BFB1AB1E028AA700932069 /* VKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1A71E028A9700932069 /* VKUser.m */; };
 		A5BFB1AE1E028AB800932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */; };
 		A5BFB1AF1E028AC000932069 /* VKDialogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */; };
+		A5BFB1B81E0AEF8500932069 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1B71E0AEF8500932069 /* IntentHandler.m */; };
+		A5BFB1C01E0AEF8500932069 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BFB1BF1E0AEF8500932069 /* IntentsUI.framework */; };
+		A5BFB1C41E0AEF8500932069 /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1C31E0AEF8500932069 /* IntentViewController.m */; };
+		A5BFB1C71E0AEF8500932069 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BFB1C51E0AEF8500932069 /* MainInterface.storyboard */; };
+		A5BFB1CB1E0AEF8500932069 /* SiriIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5BFB1BE1E0AEF8500932069 /* SiriIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5BFB1CE1E0AEF8500932069 /* SiriIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5BFB1B41E0AEF8500932069 /* SiriIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5BFB1D81E0AF07200932069 /* VKFriendsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1D71E0AF07200932069 /* VKFriendsDataSource.m */; };
+		A5BFB1DB1E0AF29600932069 /* VKFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFB1DA1E0AF29600932069 /* VKFriend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +133,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = A5BFB0BF1E0028F300932069;
 			remoteInfo = VKExtension;
+		};
+		A5BFB1C91E0AEF8500932069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BFB0971E00284F00932069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BFB1BD1E0AEF8500932069;
+			remoteInfo = SiriIntentUI;
+		};
+		A5BFB1CC1E0AEF8500932069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BFB0971E00284F00932069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BFB1B31E0AEF8500932069;
+			remoteInfo = SiriIntent;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -110,6 +158,8 @@
 			dstSubfolderSpec = 13;
 			files = (
 				A5BFB0CE1E0028F500932069 /* VKExtension.appex in Embed App Extensions */,
+				A5BFB1CB1E0AEF8500932069 /* SiriIntentUI.appex in Embed App Extensions */,
+				A5BFB1CE1E0AEF8500932069 /* SiriIntent.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +170,8 @@
 		04846360EB04C3ED30AD67E9 /* Pods-VKTodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTodayExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKTodayExtension/Pods-VKTodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		09122FA81E6F1B9671067664 /* Pods-VKExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKExtension/Pods-VKExtension.release.xcconfig"; sourceTree = "<group>"; };
 		77F28A68DBD0F060EB26AD83 /* Pods-VKTodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKTodayExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKTodayExtension/Pods-VKTodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		A569759D1E0B016C0062FE44 /* SiriIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriIntent.entitlements; sourceTree = "<group>"; };
+		A569759E1E0B0CAB0062FE44 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		A5BFB09F1E00285200932069 /* VKTodayExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKTodayExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BFB0A31E00285200932069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5BFB0A51E00285200932069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -218,6 +270,21 @@
 		A5BFB1A71E028A9700932069 /* VKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKUser.m; path = Core/VKUser.m; sourceTree = "<group>"; };
 		A5BFB1AC1E028AB800932069 /* VKDialogsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKDialogsDataSource.h; path = Core/VKDialogsDataSource.h; sourceTree = "<group>"; };
 		A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKDialogsDataSource.m; path = Core/VKDialogsDataSource.m; sourceTree = "<group>"; };
+		A5BFB1B41E0AEF8500932069 /* SiriIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFB1B61E0AEF8500932069 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		A5BFB1B71E0AEF8500932069 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		A5BFB1B91E0AEF8500932069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BFB1BE1E0AEF8500932069 /* SiriIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFB1BF1E0AEF8500932069 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A5BFB1C21E0AEF8500932069 /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
+		A5BFB1C31E0AEF8500932069 /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
+		A5BFB1C61E0AEF8500932069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A5BFB1C81E0AEF8500932069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BFB1D51E0AEF8E00932069 /* SiriIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriIntentUI.entitlements; sourceTree = "<group>"; };
+		A5BFB1D61E0AF07200932069 /* VKFriendsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFriendsDataSource.h; sourceTree = "<group>"; };
+		A5BFB1D71E0AF07200932069 /* VKFriendsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKFriendsDataSource.m; sourceTree = "<group>"; };
+		A5BFB1D91E0AF29600932069 /* VKFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKFriend.h; sourceTree = "<group>"; };
+		A5BFB1DA1E0AF29600932069 /* VKFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKFriend.m; sourceTree = "<group>"; };
 		B42766C78526DCDE3506682C /* libPods-VKTodayExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKTodayExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0AFFB18FA59AFD212BC187 /* Pods-VKExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKExtension/Pods-VKExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		DCE6B9B0C2B53E4556B1547B /* libPods-VKExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +308,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5BFB1B11E0AEF8500932069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56975A01E0B0CB30062FE44 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB1BB1E0AEF8500932069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A569759F1E0B0CAB0062FE44 /* LocalAuthentication.framework in Frameworks */,
+				A5BFB1C01E0AEF8500932069 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -250,6 +334,8 @@
 				A5BFB1881E02893400932069 /* Core */,
 				A5BFB0A11E00285200932069 /* VKTodayExtension */,
 				A5BFB0C41E0028F400932069 /* VKExtension */,
+				A5BFB1B51E0AEF8500932069 /* SiriIntent */,
+				A5BFB1C11E0AEF8500932069 /* SiriIntentUI */,
 				A5BFB0C11E0028F400932069 /* Frameworks */,
 				A5BFB0A01E00285200932069 /* Products */,
 				B13C652F298B9140F592D073 /* Pods */,
@@ -261,6 +347,8 @@
 			children = (
 				A5BFB09F1E00285200932069 /* VKTodayExtension.app */,
 				A5BFB0C01E0028F300932069 /* VKExtension.appex */,
+				A5BFB1B41E0AEF8500932069 /* SiriIntent.appex */,
+				A5BFB1BE1E0AEF8500932069 /* SiriIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,9 +382,11 @@
 		A5BFB0C11E0028F400932069 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A569759E1E0B0CAB0062FE44 /* LocalAuthentication.framework */,
 				A5BFB0C21E0028F400932069 /* NotificationCenter.framework */,
 				DCE6B9B0C2B53E4556B1547B /* libPods-VKExtension.a */,
 				B42766C78526DCDE3506682C /* libPods-VKTodayExtension.a */,
+				A5BFB1BF1E0AEF8500932069 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -498,6 +588,8 @@
 				A5BFB19F1E028A3C00932069 /* DialogProtocol.h */,
 				A5BFB1A21E028A8600932069 /* VKDialog.h */,
 				A5BFB1A31E028A8600932069 /* VKDialog.m */,
+				A5BFB1D91E0AF29600932069 /* VKFriend.h */,
+				A5BFB1DA1E0AF29600932069 /* VKFriend.m */,
 			);
 			name = Models;
 			path = ..;
@@ -527,6 +619,8 @@
 				A5BFB1941E0289DC00932069 /* DialogDataSourceProtocol.h */,
 				A5BFB1AC1E028AB800932069 /* VKDialogsDataSource.h */,
 				A5BFB1AD1E028AB800932069 /* VKDialogsDataSource.m */,
+				A5BFB1D61E0AF07200932069 /* VKFriendsDataSource.h */,
+				A5BFB1D71E0AF07200932069 /* VKFriendsDataSource.m */,
 			);
 			name = API;
 			path = ..;
@@ -554,6 +648,29 @@
 				A5BFB1831E019EBD00932069 /* Supporting Files */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		A5BFB1B51E0AEF8500932069 /* SiriIntent */ = {
+			isa = PBXGroup;
+			children = (
+				A569759D1E0B016C0062FE44 /* SiriIntent.entitlements */,
+				A5BFB1B61E0AEF8500932069 /* IntentHandler.h */,
+				A5BFB1B71E0AEF8500932069 /* IntentHandler.m */,
+				A5BFB1B91E0AEF8500932069 /* Info.plist */,
+			);
+			path = SiriIntent;
+			sourceTree = "<group>";
+		};
+		A5BFB1C11E0AEF8500932069 /* SiriIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFB1D51E0AEF8E00932069 /* SiriIntentUI.entitlements */,
+				A5BFB1C21E0AEF8500932069 /* IntentViewController.h */,
+				A5BFB1C31E0AEF8500932069 /* IntentViewController.m */,
+				A5BFB1C51E0AEF8500932069 /* MainInterface.storyboard */,
+				A5BFB1C81E0AEF8500932069 /* Info.plist */,
+			);
+			path = SiriIntentUI;
 			sourceTree = "<group>";
 		};
 		B13C652F298B9140F592D073 /* Pods */ = {
@@ -586,6 +703,8 @@
 			);
 			dependencies = (
 				A5BFB0CD1E0028F500932069 /* PBXTargetDependency */,
+				A5BFB1CA1E0AEF8500932069 /* PBXTargetDependency */,
+				A5BFB1CD1E0AEF8500932069 /* PBXTargetDependency */,
 			);
 			name = VKTodayExtension;
 			productName = VKTodayExtension;
@@ -611,6 +730,40 @@
 			productReference = A5BFB0C01E0028F300932069 /* VKExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		A5BFB1B31E0AEF8500932069 /* SiriIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BFB1D21E0AEF8500932069 /* Build configuration list for PBXNativeTarget "SiriIntent" */;
+			buildPhases = (
+				A5BFB1B01E0AEF8500932069 /* Sources */,
+				A5BFB1B11E0AEF8500932069 /* Frameworks */,
+				A5BFB1B21E0AEF8500932069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriIntent;
+			productName = SiriIntent;
+			productReference = A5BFB1B41E0AEF8500932069 /* SiriIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A5BFB1BD1E0AEF8500932069 /* SiriIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BFB1CF1E0AEF8500932069 /* Build configuration list for PBXNativeTarget "SiriIntentUI" */;
+			buildPhases = (
+				A5BFB1BA1E0AEF8500932069 /* Sources */,
+				A5BFB1BB1E0AEF8500932069 /* Frameworks */,
+				A5BFB1BC1E0AEF8500932069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriIntentUI;
+			productName = SiriIntentUI;
+			productReference = A5BFB1BE1E0AEF8500932069 /* SiriIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -622,7 +775,20 @@
 				TargetAttributes = {
 					A5BFB09E1E00285000932069 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = R2W7DYVTV5;
+						DevelopmentTeam = 7HW4DTKXEE;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					A5BFB0BF1E0028F300932069 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7HW4DTKXEE;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -630,9 +796,19 @@
 							};
 						};
 					};
-					A5BFB0BF1E0028F300932069 = {
+					A5BFB1B31E0AEF8500932069 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = R2W7DYVTV5;
+						DevelopmentTeam = 7HW4DTKXEE;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A5BFB1BD1E0AEF8500932069 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7HW4DTKXEE;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -657,6 +833,8 @@
 			targets = (
 				A5BFB09E1E00285000932069 /* VKTodayExtension */,
 				A5BFB0BF1E0028F300932069 /* VKExtension */,
+				A5BFB1B31E0AEF8500932069 /* SiriIntent */,
+				A5BFB1BD1E0AEF8500932069 /* SiriIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -677,6 +855,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5BFB0CA1E0028F500932069 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB1B21E0AEF8500932069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB1BC1E0AEF8500932069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFB1C71E0AEF8500932069 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -765,6 +958,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BFB1D81E0AF07200932069 /* VKFriendsDataSource.m in Sources */,
 				A5BFB1291E0032C900932069 /* CATMailRuOAuth.m in Sources */,
 				A5BFB12D1E0032C900932069 /* CATVKOAuth.m in Sources */,
 				A5BFB1271E0032C900932069 /* CATLinkedInOAuth.m in Sources */,
@@ -774,6 +968,7 @@
 				A5BFB1251E0032C900932069 /* CATInstagramOAuth.m in Sources */,
 				A5BFB1AE1E028AB800932069 /* VKDialogsDataSource.m in Sources */,
 				A5BFB1231E0032C900932069 /* CATGoogleOAuth.m in Sources */,
+				A5BFB1DB1E0AF29600932069 /* VKFriend.m in Sources */,
 				A5BFB1311E0032C900932069 /* CATOAuthController.m in Sources */,
 				A5BFB12A1E0032C900932069 /* CATOKAppearance.m in Sources */,
 				A5BFB11D1E0032C900932069 /* CATSocialOAuth.m in Sources */,
@@ -822,6 +1017,7 @@
 				A5BFB1A91E028AA300932069 /* VKDialog.m in Sources */,
 				A5BFB1411E00413600932069 /* CATFacebookOAuth.m in Sources */,
 				A5BFB1451E00414A00932069 /* CATGoogleAppearance.m in Sources */,
+				A56975871E0AFB3E0062FE44 /* VKFriend.m in Sources */,
 				A5BFB0C71E0028F400932069 /* TodayViewController.m in Sources */,
 				A5BFB13E1E00412800932069 /* CATOAuthAppearance.m in Sources */,
 				A5BFB1AF1E028AC000932069 /* VKDialogsDataSource.m in Sources */,
@@ -845,8 +1041,47 @@
 				A5BFB1AB1E028AA700932069 /* VKUser.m in Sources */,
 				A5BFB14E1E00417800932069 /* CATVKAppearance.m in Sources */,
 				A5BFB14A1E00416700932069 /* CATMailRuAppearance.m in Sources */,
+				A56975981E0AFB7A0062FE44 /* VKFriendsDataSource.m in Sources */,
 				A5BFB18F1E02899200932069 /* NSThread+SimpleMainThread.m in Sources */,
 				A5BFB13D1E003FBA00932069 /* CATSocialOAuthFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB1B01E0AEF8500932069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56975851E0AFB3A0062FE44 /* VKDialog.m in Sources */,
+				A56975961E0AFB640062FE44 /* NSUserDefaults+GroupDefaults.m in Sources */,
+				A569758C1E0AFB4D0062FE44 /* VKFriendsDataSource.m in Sources */,
+				A56975921E0AFB590062FE44 /* ApiManager.m in Sources */,
+				A56975901E0AFB540062FE44 /* Configuration.m in Sources */,
+				A5BFB1B81E0AEF8500932069 /* IntentHandler.m in Sources */,
+				A56975941E0AFB610062FE44 /* NSThread+SimpleMainThread.m in Sources */,
+				A569758A1E0AFB460062FE44 /* UserManager.m in Sources */,
+				A56975881E0AFB3E0062FE44 /* VKFriend.m in Sources */,
+				A569759B1E0AFB970062FE44 /* DialogTableViewDataSource.m in Sources */,
+				A56975831E0AFB370062FE44 /* VKUser.m in Sources */,
+				A56975991E0AFB880062FE44 /* DialogTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFB1BA1E0AEF8500932069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56975861E0AFB3A0062FE44 /* VKDialog.m in Sources */,
+				A56975971E0AFB640062FE44 /* NSUserDefaults+GroupDefaults.m in Sources */,
+				A569758D1E0AFB4D0062FE44 /* VKFriendsDataSource.m in Sources */,
+				A56975931E0AFB5A0062FE44 /* ApiManager.m in Sources */,
+				A56975911E0AFB550062FE44 /* Configuration.m in Sources */,
+				A5BFB1C41E0AEF8500932069 /* IntentViewController.m in Sources */,
+				A56975951E0AFB610062FE44 /* NSThread+SimpleMainThread.m in Sources */,
+				A569758B1E0AFB480062FE44 /* UserManager.m in Sources */,
+				A56975891E0AFB3E0062FE44 /* VKFriend.m in Sources */,
+				A569759C1E0AFB970062FE44 /* DialogTableViewDataSource.m in Sources */,
+				A56975841E0AFB370062FE44 /* VKUser.m in Sources */,
+				A569759A1E0AFB880062FE44 /* DialogTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -857,6 +1092,16 @@
 			isa = PBXTargetDependency;
 			target = A5BFB0BF1E0028F300932069 /* VKExtension */;
 			targetProxy = A5BFB0CC1E0028F500932069 /* PBXContainerItemProxy */;
+		};
+		A5BFB1CA1E0AEF8500932069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BFB1BD1E0AEF8500932069 /* SiriIntentUI */;
+			targetProxy = A5BFB1C91E0AEF8500932069 /* PBXContainerItemProxy */;
+		};
+		A5BFB1CD1E0AEF8500932069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BFB1B31E0AEF8500932069 /* SiriIntent */;
+			targetProxy = A5BFB1CC1E0AEF8500932069 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -881,6 +1126,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				A5BFB0C91E0028F400932069 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		A5BFB1C51E0AEF8500932069 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BFB1C61E0AEF8500932069 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -982,10 +1235,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VKTodayExtension/VKTodayExtension.entitlements;
-				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
 				INFOPLIST_FILE = VKTodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -996,10 +1249,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = VKTodayExtension/VKTodayExtension.entitlements;
-				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
 				INFOPLIST_FILE = VKTodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1009,10 +1262,10 @@
 			baseConfigurationReference = CF0AFFB18FA59AFD212BC187 /* Pods-VKExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VKExtension/VKExtension.entitlements;
-				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
 				INFOPLIST_FILE = VKExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension.VKExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1023,10 +1276,62 @@
 			baseConfigurationReference = 09122FA81E6F1B9671067664 /* Pods-VKExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = VKExtension/VKExtension.entitlements;
-				DEVELOPMENT_TEAM = R2W7DYVTV5;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
 				INFOPLIST_FILE = VKExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lisenkov.VKTodayExtension.VKExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A5BFB1D01E0AEF8500932069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriIntentUI/SiriIntentUI.entitlements;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
+				INFOPLIST_FILE = SiriIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp.SiriIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5BFB1D11E0AEF8500932069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriIntentUI/SiriIntentUI.entitlements;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
+				INFOPLIST_FILE = SiriIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp.SiriIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A5BFB1D31E0AEF8500932069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriIntent/SiriIntent.entitlements;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
+				INFOPLIST_FILE = SiriIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp.SiriIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5BFB1D41E0AEF8500932069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriIntent/SiriIntent.entitlements;
+				DEVELOPMENT_TEAM = 7HW4DTKXEE;
+				INFOPLIST_FILE = SiriIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriKitTestApp.SiriIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1058,6 +1363,24 @@
 			buildConfigurations = (
 				A5BFB0D01E0028F500932069 /* Debug */,
 				A5BFB0D11E0028F500932069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BFB1CF1E0AEF8500932069 /* Build configuration list for PBXNativeTarget "SiriIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFB1D01E0AEF8500932069 /* Debug */,
+				A5BFB1D11E0AEF8500932069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BFB1D21E0AEF8500932069 /* Build configuration list for PBXNativeTarget "SiriIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFB1D31E0AEF8500932069 /* Debug */,
+				A5BFB1D41E0AEF8500932069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

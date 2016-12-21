@@ -17,6 +17,7 @@
 #import "DialogTableViewCell.h"
 #import "DialogTableViewDataSource.h"
 #import "NSThread+SimpleMainThread.h"
+#import <Intents/INPreferences.h>
 
 @interface ViewController () <UITableViewDelegate>
 
@@ -58,6 +59,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     if (self.tableDataSource == nil)
     {
         self.tableDataSource = [[DialogTableViewDataSource alloc] initWithTableView:self.tableView dataSource:self.dataSource cellReusableIdentifire:@"MainCell"];
@@ -78,6 +80,10 @@
 {
     [self updateData];
     [super viewWillAppear:YES];
+    
+    [INPreferences requestSiriAuthorization:^(INSiriAuthorizationStatus status) {
+        NSLog(@"SIRI! SIRI! SIRI!: %li", (long)status);
+    }];
 }
 
 - (void)presentVKAuth:(id)sender
